@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://E%3A/freeLancing/talha/M.-Ramirez/src/app/page.tsx"],"sourcesContent":["import Image from 'next/image';\r\n\r\nexport default function Home() {\r\n  return (\r\n    <div className=\"grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]\">\r\n      <main className=\"flex flex-col gap-20 row-start-2 items-center sm:items-start\">\r\n        <Image\r\n          className=\"dark:invert\"\r\n          src=\"/next.svg\"\r\n          alt=\"Next.js logo\"\r\n          width={180}\r\n          height={38}\r\n          priority\r\n        />\r\n        <h1 className=\"text-4xl font-bold\">Project Template!</h1>\r\n      </main>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAK,WAAU;;8BACd,8OAAC,6HAAA,CAAA,UAAK;oBACJ,WAAU;oBACV,KAAI;oBACJ,KAAI;oBACJ,OAAO;oBACP,QAAQ;oBACR,QAAQ;;;;;;8BAEV,8OAAC;oBAAG,WAAU;8BAAqB;;;;;;;;;;;;;;;;;AAI3C"}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 63, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 63, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
