@@ -1,27 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html','./pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',],
   theme: {
     extend: {
       colors: {
-        primary: {
-          DEFAULT: '#1E40AF', // Main Brand Color
-          light: '#1D4ED8',
-          dark: '#1E3A8A',
-        },
-        secondary: {
-          DEFAULT: '#F59E0B',
-          light: '#FBBF24',
-          dark: '#B45309',
-        },
-        neutral: {
-          DEFAULT: '#374151',
-          light: '#6B7280',
-          dark: '#111827',
-        },
+        primary: "#598C12",   // Green
+        white: "#FFFFFF",     // White
+        neonGreen: "#94F312", // Bright Green
+        black: "#000000",     // Black
+        lightGray: "#EDEDEC", // Light Gray
+        gray: "#DDDDDD",      // Gray
+        softWhite: "#F8F8F5", // Soft White
+        darkGray: "#535355",  // Dark Gray
+        offWhite: "#F9F9F9",  // Off White
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
+        levenim: ['"Levenim MT"', 'sans-serif'],
       },
       container: {
         center: true,
@@ -31,4 +27,5 @@ module.exports = {
   },
   darkMode: 'class', // Enables dark mode using "class"
   plugins: [],
+  
 };
