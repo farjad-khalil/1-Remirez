@@ -1,7 +1,28 @@
+import Link from 'next/link';
 import React from 'react';
 
-const Card = () => {
-  return <div>Card</div>;
+export const ButtonGreen = ({ text }:any) => {
+  return (
+
+    <Link
+      href="#"
+      className="bg-[#65991d] text-white px-8 py-3 font-medium border-2 border-[#65991d] transition-all duration-300 hover:bg-transparent hover:text-[#65991d]"
+    >
+      {text}
+    </Link>
+  )
 };
 
-export default Card;
+export const ButtonLight = ({ text }:any) => {
+  return (
+
+    <Link
+      href="#"
+      className="bg-white text-[#65991d] px-8 py-3 font-medium border-2 border-[#65991d] transition-all duration-300 hover:bg-[#65991d] hover:text-white"
+    >
+      {text}
+    </Link>
+  )
+};
+
+

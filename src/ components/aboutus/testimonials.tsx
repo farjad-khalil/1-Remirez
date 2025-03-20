@@ -1,12 +1,13 @@
 "use client"
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import { testimonialsData } from "@/constants/constants";
 import { Quote } from "lucide-react";
+import { DividerLeft } from "../Divider/divider";
 
 const Testimonial = () => {
     const [startIndex, setStartIndex] = useState(0);
-    const visibleCards = 3;
+    const [visibleCards, setVisibleCards] = useState(3);
 
     const nextTestimonials = () => {
         if (startIndex + visibleCards < testimonialsData.length) {
@@ -19,18 +20,25 @@ const Testimonial = () => {
             setStartIndex(startIndex - 1);
         }
     };
+    useEffect(() => {
+        const updateVisibleCards = () => {
+            if (window.innerWidth < 768) {
+                setVisibleCards(1); // Show 1 card on screens < md (768px)
+            } else {
+                setVisibleCards(3); // Default to 3 cards on larger screens
+            }
+        };
 
+        updateVisibleCards(); // Initial check
+        window.addEventListener("resize", updateVisibleCards); // Listen for resize
+
+        return () => window.removeEventListener("resize", updateVisibleCards); // Cleanup
+    }, []);
     return (
         <div className="p-10 flex flex-col items-center">
-            <div className="flex items-center w-full bg-white pt-12 pb-16 px-8">
-                <h2 className="px-4 text-4xl font-semibold">
-                    <span className="text-black montserrat-regular">What</span>{" "}
-                    <span className="text-[#65991d]">Our Customers Say</span>
-                </h2>
-                <div className="flex-1 h-[3px] bg-[#65991d]"></div>
-            </div>
+            <DividerLeft t1={"What"} t2={"Our Customer Say"} />
             {/* Testimonial Cards */}
-            <div className="flex justify-center gap-6 overflow-hidden">
+            <div className="flex justify-center gap-6 overflow-hidden cursor-pointer">
                 {testimonialsData.slice(startIndex, startIndex + visibleCards).map((testimonial, index) => (
                     <div
                         key={index}

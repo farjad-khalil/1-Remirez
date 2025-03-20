@@ -10,11 +10,9 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$instagram$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Instagram$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/instagram.js [app-rsc] (ecmascript) <export default as Instagram>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$facebook$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Facebook$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/facebook.js [app-rsc] (ecmascript) <export default as Facebook>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/phone.js [app-rsc] (ecmascript) <export default as Phone>");
-;
 ;
 ;
 ;
@@ -30,22 +28,22 @@ function Home() {
                         children: "Call Us:"
                     }, void 0, false, {
                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                        lineNumber: 10,
+                        lineNumber: 9,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Link, {
                         href: "tel:(516) 270-7024",
                         className: "text-[#65991d] font-medium",
                         children: "(516) 270-7024"
                     }, void 0, false, {
                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                        lineNumber: 11,
+                        lineNumber: 10,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                lineNumber: 9,
+                lineNumber: 8,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
@@ -64,7 +62,7 @@ function Home() {
                                     className: "mr-2"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                    lineNumber: 20,
+                                    lineNumber: 19,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -75,7 +73,7 @@ function Home() {
                                             children: "M. Ramirez"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 28,
+                                            lineNumber: 27,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -83,123 +81,123 @@ function Home() {
                                             children: "LANDSCAPING, INC."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 29,
+                                            lineNumber: 28,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                    lineNumber: 27,
+                                    lineNumber: 26,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                            lineNumber: 19,
+                            lineNumber: 18,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                             className: "hidden md:flex items-center space-x-6",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Link, {
                                     href: "#",
                                     className: "hover:underline py-2",
                                     children: "Home"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                    lineNumber: 33,
+                                    lineNumber: 32,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Link, {
                                     href: "#",
                                     className: "hover:underline py-2 font-semibold bg-[#75a92d] px-3 rounded",
                                     children: "About Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                    lineNumber: 36,
+                                    lineNumber: 35,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Link, {
                                     href: "#",
                                     className: "hover:underline py-2",
                                     children: "Services"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 38,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Link, {
                                     href: "#",
                                     className: "hover:underline py-2",
                                     children: "Gallery"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                    lineNumber: 42,
+                                    lineNumber: 41,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Link, {
                                     href: "#",
                                     className: "hover:underline py-2",
                                     children: "Contact Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                    lineNumber: 45,
+                                    lineNumber: 44,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                            lineNumber: 32,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex items-center space-x-4",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Link, {
                                     href: "#",
                                     "aria-label": "Instagram",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$instagram$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Instagram$3e$__["Instagram"], {
                                         className: "h-5 w-5 text-white"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                        lineNumber: 51,
+                                        lineNumber: 50,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                    lineNumber: 50,
+                                    lineNumber: 49,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Link, {
                                     href: "#",
                                     "aria-label": "Facebook",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$facebook$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Facebook$3e$__["Facebook"], {
                                         className: "h-5 w-5 text-white"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                        lineNumber: 54,
+                                        lineNumber: 53,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                    lineNumber: 53,
+                                    lineNumber: 52,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                            lineNumber: 49,
+                            lineNumber: 48,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                    lineNumber: 18,
+                    lineNumber: 17,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                lineNumber: 17,
+                lineNumber: 16,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -216,7 +214,7 @@ function Home() {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                lineNumber: 63,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -231,13 +229,13 @@ function Home() {
                                                 children: "Us"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                lineNumber: 73,
+                                                lineNumber: 72,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                        lineNumber: 72,
+                                        lineNumber: 71,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -249,7 +247,7 @@ function Home() {
                                                 children: "excellence"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                lineNumber: 76,
+                                                lineNumber: 75,
                                                 columnNumber: 53
                                             }, this),
                                             ",",
@@ -259,7 +257,7 @@ function Home() {
                                                 children: "attention to detail"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                lineNumber: 77,
+                                                lineNumber: 76,
                                                 columnNumber: 15
                                             }, this),
                                             ", and",
@@ -269,7 +267,7 @@ function Home() {
                                                 children: "customer satisfaction"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                lineNumber: 78,
+                                                lineNumber: 77,
                                                 columnNumber: 15
                                             }, this),
                                             ". We treat every",
@@ -279,7 +277,7 @@ function Home() {
                                                 children: "lawn and garden"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                lineNumber: 79,
+                                                lineNumber: 78,
                                                 columnNumber: 15
                                             }, this),
                                             " as if it were our own, ensuring the highest level of care and professionalism. Whether you're looking to",
@@ -289,26 +287,26 @@ function Home() {
                                                 children: "refresh your outdoor space"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                lineNumber: 81,
+                                                lineNumber: 80,
                                                 columnNumber: 15
                                             }, this),
                                             " or need ongoing maintenance, our team is here to bring your vision to life."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                        lineNumber: 75,
+                                        lineNumber: 74,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                lineNumber: 71,
+                                lineNumber: 70,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                        lineNumber: 62,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -326,7 +324,7 @@ function Home() {
                                                 children: "Our Story"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                lineNumber: 92,
+                                                lineNumber: 91,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -334,7 +332,7 @@ function Home() {
                                                 children: "M. Ramirez Landscaping Inc.,"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                lineNumber: 93,
+                                                lineNumber: 92,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -342,20 +340,20 @@ function Home() {
                                                 children: "has its beginnings ten years ago. We were founded by owner, Mauricio Ramirez and growing rapidly each year with more employees, trucks and more services for our clients."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                lineNumber: 94,
+                                                lineNumber: 93,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: "You can find our trucks mostly in the Garden City, Long Island area servicing gorgeous homes and gardens. We only offer the best in service for all our customers."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                lineNumber: 98,
+                                                lineNumber: 97,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                        lineNumber: 91,
+                                        lineNumber: 90,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -367,28 +365,28 @@ function Home() {
                                             className: "w-full h-full object-cover"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 104,
+                                            lineNumber: 103,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 102,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                lineNumber: 90,
+                                lineNumber: 89,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                            lineNumber: 89,
+                            lineNumber: 88,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                        lineNumber: 88,
+                        lineNumber: 87,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -404,7 +402,7 @@ function Home() {
                                             children: "Our"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 120,
+                                            lineNumber: 119,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -412,20 +410,20 @@ function Home() {
                                             children: "Approach"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 121,
+                                            lineNumber: 120,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "inline-block border-b border-[#65991d] pb-2 pl-4"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 122,
+                                            lineNumber: 121,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                    lineNumber: 119,
+                                    lineNumber: 118,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -442,7 +440,7 @@ function Home() {
                                                     className: "w-full mb-6"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 127,
+                                                    lineNumber: 126,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -457,12 +455,12 @@ function Home() {
                                                                         className: "inline-block w-6 h-6 bg-[#f1f1f1] rounded-full"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                                        lineNumber: 138,
+                                                                        lineNumber: 137,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                                    lineNumber: 137,
+                                                                    lineNumber: 136,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -470,13 +468,13 @@ function Home() {
                                                                     children: "Customer-Centric Service"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                                    lineNumber: 140,
+                                                                    lineNumber: 139,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 136,
+                                                            lineNumber: 135,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -488,12 +486,12 @@ function Home() {
                                                                         className: "inline-block w-6 h-6 bg-[#f1f1f1] rounded-full"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                                        lineNumber: 145,
+                                                                        lineNumber: 144,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                                    lineNumber: 144,
+                                                                    lineNumber: 143,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -501,13 +499,13 @@ function Home() {
                                                                     children: "Commitment to Excellence"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                                    lineNumber: 147,
+                                                                    lineNumber: 146,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 143,
+                                                            lineNumber: 142,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -519,12 +517,12 @@ function Home() {
                                                                         className: "inline-block w-6 h-6 bg-[#f1f1f1] rounded-full"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                                        lineNumber: 152,
+                                                                        lineNumber: 151,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                                    lineNumber: 151,
+                                                                    lineNumber: 150,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -532,25 +530,25 @@ function Home() {
                                                                     children: "Long-Term Trust & Care"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                                    lineNumber: 154,
+                                                                    lineNumber: 153,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 150,
+                                                            lineNumber: 149,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 135,
+                                                    lineNumber: 134,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 126,
+                                            lineNumber: 125,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -564,36 +562,36 @@ function Home() {
                                                         children: "testimonies"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                        lineNumber: 161,
+                                                        lineNumber: 160,
                                                         columnNumber: 23
                                                     }, this),
                                                     " of our customers are our largest asset. From the beginning we've been so very grateful to all our loyal customers. Here we promise to continue our legacy by bringing you superb, outstanding service and care for your home garden and lawn."
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                lineNumber: 160,
+                                                lineNumber: 159,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 159,
+                                            lineNumber: 158,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                    lineNumber: 125,
+                                    lineNumber: 124,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                            lineNumber: 118,
+                            lineNumber: 117,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                        lineNumber: 117,
+                        lineNumber: 116,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -609,7 +607,7 @@ function Home() {
                                             children: "What"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 174,
+                                            lineNumber: 173,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -617,20 +615,20 @@ function Home() {
                                             children: "Our Customer Say"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 175,
+                                            lineNumber: 174,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "block w-full h-px bg-[#dddddd] mt-2"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 176,
+                                            lineNumber: 175,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                    lineNumber: 173,
+                                    lineNumber: 172,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -652,12 +650,12 @@ function Home() {
                                                                 className: "w-full h-full object-cover"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                                lineNumber: 184,
+                                                                lineNumber: 183,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 183,
+                                                            lineNumber: 182,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -665,7 +663,7 @@ function Home() {
                                                             children: "Brook"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 192,
+                                                            lineNumber: 191,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -676,18 +674,18 @@ function Home() {
                                                                     children: "★"
                                                                 }, i, false, {
                                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                                    lineNumber: 195,
+                                                                    lineNumber: 194,
                                                                     columnNumber: 23
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 193,
+                                                            lineNumber: 192,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 182,
+                                                    lineNumber: 181,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -695,7 +693,7 @@ function Home() {
                                                     children: "Best landscaping service in town!"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 200,
+                                                    lineNumber: 199,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -703,7 +701,7 @@ function Home() {
                                                     children: "From soil installation to seasonal cleanup, they handle everything with great attention to detail. My lawn has never looked better, and I couldn't be happier with the results."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 201,
+                                                    lineNumber: 200,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -711,7 +709,7 @@ function Home() {
                                                     children: "Happy Homeowner"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 205,
+                                                    lineNumber: 204,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -719,13 +717,13 @@ function Home() {
                                                     children: '"'
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 206,
+                                                    lineNumber: 205,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 181,
+                                            lineNumber: 180,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -744,12 +742,12 @@ function Home() {
                                                                 className: "w-full h-full object-cover"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                                lineNumber: 213,
+                                                                lineNumber: 212,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 212,
+                                                            lineNumber: 211,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -757,7 +755,7 @@ function Home() {
                                                             children: "James R"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 221,
+                                                            lineNumber: 220,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -768,18 +766,18 @@ function Home() {
                                                                     children: "★"
                                                                 }, i, false, {
                                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                                    lineNumber: 224,
+                                                                    lineNumber: 223,
                                                                     columnNumber: 23
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 222,
+                                                            lineNumber: 221,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 211,
+                                                    lineNumber: 210,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -787,7 +785,7 @@ function Home() {
                                                     children: "Absolutely transformed my backyard!"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 229,
+                                                    lineNumber: 228,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -795,7 +793,7 @@ function Home() {
                                                     children: "The team did an amazing job designing and implementing my new patio. The plants and greenery are perfectly placed, and my yard looks stunning! Highly recommend their services!"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 230,
+                                                    lineNumber: 229,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -803,7 +801,7 @@ function Home() {
                                                     children: "Happy Homeowner"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 234,
+                                                    lineNumber: 233,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -811,13 +809,13 @@ function Home() {
                                                     children: '"'
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 235,
+                                                    lineNumber: 234,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 210,
+                                            lineNumber: 209,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -836,12 +834,12 @@ function Home() {
                                                                 className: "w-full h-full object-cover"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                                lineNumber: 242,
+                                                                lineNumber: 241,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 241,
+                                                            lineNumber: 240,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -849,7 +847,7 @@ function Home() {
                                                             children: "Brook"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 250,
+                                                            lineNumber: 249,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -860,18 +858,18 @@ function Home() {
                                                                     children: "★"
                                                                 }, i, false, {
                                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                                    lineNumber: 253,
+                                                                    lineNumber: 252,
                                                                     columnNumber: 23
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 251,
+                                                            lineNumber: 250,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 240,
+                                                    lineNumber: 239,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -879,7 +877,7 @@ function Home() {
                                                     children: "Best landscaping service in town!"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 258,
+                                                    lineNumber: 257,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -887,7 +885,7 @@ function Home() {
                                                     children: "From soil installation to seasonal cleanup, they handle everything with great attention to detail. My lawn has never looked better, and I couldn't be happier with the results."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 259,
+                                                    lineNumber: 258,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -895,7 +893,7 @@ function Home() {
                                                     children: "Happy Homeowner"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 263,
+                                                    lineNumber: 262,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -903,19 +901,19 @@ function Home() {
                                                     children: '"'
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 264,
+                                                    lineNumber: 263,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 239,
+                                            lineNumber: 238,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                    lineNumber: 179,
+                                    lineNumber: 178,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -925,38 +923,38 @@ function Home() {
                                             className: "w-2 h-2 rounded-full bg-[#dddddd]"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 270,
+                                            lineNumber: 269,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "w-2 h-2 rounded-full bg-[#65991d]"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 271,
+                                            lineNumber: 270,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "w-2 h-2 rounded-full bg-[#dddddd]"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 272,
+                                            lineNumber: 271,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                    lineNumber: 269,
+                                    lineNumber: 268,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                            lineNumber: 172,
+                            lineNumber: 171,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                        lineNumber: 171,
+                        lineNumber: 170,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -971,7 +969,7 @@ function Home() {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                lineNumber: 279,
+                                lineNumber: 278,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -986,13 +984,13 @@ function Home() {
                                                 children: "Green Space!"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                lineNumber: 289,
+                                                lineNumber: 288,
                                                 columnNumber: 28
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                        lineNumber: 288,
+                                        lineNumber: 287,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1000,52 +998,52 @@ function Home() {
                                         children: "Transform your garden and lawn into a vibrant, well-maintained haven. From expert landscaping to seasonal enhancements, we bring beauty and care to every corner of your outdoor environment."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                        lineNumber: 291,
+                                        lineNumber: 290,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex flex-col sm:flex-row justify-center gap-4",
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Link, {
                                                 href: "#",
                                                 className: "bg-white text-black px-8 py-3 font-medium",
                                                 children: "Contact Us"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                lineNumber: 296,
+                                                lineNumber: 295,
                                                 columnNumber: 15
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Link, {
                                                 href: "#",
                                                 className: "bg-[#94f312] text-black px-8 py-3 font-medium",
                                                 children: "Call Us"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                lineNumber: 299,
+                                                lineNumber: 298,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                        lineNumber: 295,
+                                        lineNumber: 294,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                lineNumber: 287,
+                                lineNumber: 286,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/(main)/contact/page.tsx",
-                        lineNumber: 278,
+                        lineNumber: 277,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                lineNumber: 60,
+                lineNumber: 59,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -1069,7 +1067,7 @@ function Home() {
                                                     className: "mr-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 313,
+                                                    lineNumber: 312,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1080,7 +1078,7 @@ function Home() {
                                                             children: "M. Ramirez"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 321,
+                                                            lineNumber: 320,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1088,19 +1086,19 @@ function Home() {
                                                             children: "LANDSCAPING, INC."
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 322,
+                                                            lineNumber: 321,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 320,
+                                                    lineNumber: 319,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 312,
+                                            lineNumber: 311,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1108,13 +1106,13 @@ function Home() {
                                             children: "Serving Long Island for over 10 years, providing high-quality professional landscaping services. We take pride in our work and strive for 100% customer satisfaction with every project we complete."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 325,
+                                            lineNumber: 324,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                    lineNumber: 311,
+                                    lineNumber: 310,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1124,7 +1122,7 @@ function Home() {
                                             children: "Our Services"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 332,
+                                            lineNumber: 331,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1134,47 +1132,47 @@ function Home() {
                                                     children: "Landscape Design & Installation"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 334,
+                                                    lineNumber: 333,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "Tree, Shrub & Lawn Planting"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 335,
+                                                    lineNumber: 334,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "Weekly Lawn Maintenance"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 336,
+                                                    lineNumber: 335,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "Seasonal Property Maintenance"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 337,
+                                                    lineNumber: 336,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: "Lawn & Garden Fertilization"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 338,
+                                                    lineNumber: 337,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 333,
+                                            lineNumber: 332,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                    lineNumber: 331,
+                                    lineNumber: 330,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1184,7 +1182,7 @@ function Home() {
                                             children: "Contact Us"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 343,
+                                            lineNumber: 342,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1197,21 +1195,21 @@ function Home() {
                                                             className: "h-4 w-4 mr-2"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 346,
+                                                            lineNumber: 345,
                                                             columnNumber: 19
                                                         }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Link, {
                                                             href: "tel:(516) 270-7024",
                                                             children: "(516) 270-7024"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 347,
+                                                            lineNumber: 346,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 345,
+                                                    lineNumber: 344,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1222,21 +1220,21 @@ function Home() {
                                                             children: "@"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 350,
+                                                            lineNumber: 349,
                                                             columnNumber: 19
                                                         }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Link, {
                                                             href: "mailto:information@mramirez.com",
                                                             children: "information@mramirez.com"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 351,
+                                                            lineNumber: 350,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 349,
+                                                    lineNumber: 348,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1244,64 +1242,64 @@ function Home() {
                                                     children: "Follow Us:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 353,
+                                                    lineNumber: 352,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     className: "flex space-x-2",
                                                     children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Link, {
                                                             href: "#",
                                                             "aria-label": "Instagram",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$instagram$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Instagram$3e$__["Instagram"], {
                                                                 className: "h-5 w-5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                                lineNumber: 356,
+                                                                lineNumber: 355,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 355,
+                                                            lineNumber: 354,
                                                             columnNumber: 19
                                                         }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Link, {
                                                             href: "#",
                                                             "aria-label": "Facebook",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$facebook$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Facebook$3e$__["Facebook"], {
                                                                 className: "h-5 w-5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                                lineNumber: 359,
+                                                                lineNumber: 358,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                            lineNumber: 358,
+                                                            lineNumber: 357,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                                    lineNumber: 354,
+                                                    lineNumber: 353,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                            lineNumber: 344,
+                                            lineNumber: 343,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                                    lineNumber: 342,
+                                    lineNumber: 341,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                            lineNumber: 310,
+                            lineNumber: 309,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1309,24 +1307,24 @@ function Home() {
                             children: "COPYRIGHT M.RAMIREZ LANDSCAPING, INC."
                         }, void 0, false, {
                             fileName: "[project]/src/app/(main)/contact/page.tsx",
-                            lineNumber: 366,
+                            lineNumber: 365,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/(main)/contact/page.tsx",
-                    lineNumber: 309,
+                    lineNumber: 308,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                lineNumber: 308,
+                lineNumber: 307,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/(main)/contact/page.tsx",
-        lineNumber: 7,
+        lineNumber: 6,
         columnNumber: 5
     }, this);
 }

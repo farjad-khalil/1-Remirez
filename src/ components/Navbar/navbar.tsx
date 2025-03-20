@@ -18,7 +18,7 @@ export default function Navbar() {
                 <Link
                   key={link.path}
                   href={link.path}
-                  className={`py-2 transition-all ${pathname === link.path ? "font-bold underline" : ""}`}
+                  className={`py-2 transition-all ${pathname === link.path ? "font-bold underline underline-offset-8" : ""}`}
                 >
                   {link.name}
                 </Link>
