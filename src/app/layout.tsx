@@ -22,7 +22,16 @@ export default function RootLayout({
 
       <body className='flex flex-col min-h-screen montserrat-regular'>
 
-        <div className="bg-white py-1 px-16 flex justify-end items-center text-sm ">
+        <div className="bg-white py-1 px-2 md:px-16 flex justify-between items-center text-sm ">
+          <div className='flex'>
+
+            <Link href="#" aria-label="Instagram" className="md:hidden">
+              <Instagram size={30} strokeWidth={1.5} className="text-neonGreen" />
+            </Link>
+            <Link href="#" aria-label="Facebook" className="md:hidden">
+              <Facebook size={30} strokeWidth={0.75} className="text-neonGreen fill-white" />
+            </Link>
+          </div>
           <div className='text-[#65991d] flex flex-row text-2xl items-center'>
             <span className="mr-2 montserrat-light ">Call Us: </span><PhoneCall />
             <Link href="tel:(516) 270-7024" className="text-[#65991d] font-bold">
@@ -33,29 +42,13 @@ export default function RootLayout({
 
         {/* Navigation */}
         <header className="bg-[#65991d] text-white">
-          <div className="px-16 py-7 flex justify-between items-center">
-            <div className="flex items-center">
-              <img
-                src="/assets/main_logo.svg"
-                alt="M. Ramirez Logo"
-                width={250}
-                height={250}
-                className="mr-2 text"
-              />
-            </div>
-            <Navbar />
-            <div className="flex items-center space-x-8">
-              <Link href="#" aria-label="Instagram">
-                <Instagram size={35} strokeWidth={1.5} className=" text-white " />
-              </Link>
-              <Link href="#" aria-label="Facebook">
-                <Facebook size={35} strokeWidth={0.75} className=" text-white fill-white" />
-              </Link>
-            </div>
-          </div>
+
+
+          <Navbar />
+
         </header>
         {children}
-        
+
         <Footer />
       </body>
     </html>

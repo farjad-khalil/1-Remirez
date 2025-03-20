@@ -9,7 +9,9 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 __turbopack_esm__({
     "footer_contact": (()=>footer_contact),
     "footer_text": (()=>footer_text),
+    "galleryImages": (()=>galleryImages),
     "hero_data_aboutus": (()=>hero_data_aboutus),
+    "hero_data_contactus": (()=>hero_data_contactus),
     "hero_data_gallery": (()=>hero_data_gallery),
     "hero_data_services": (()=>hero_data_services),
     "our_story_text": (()=>our_story_text),
@@ -216,7 +218,62 @@ const hero_data_gallery = {
         fileName: "[project]/src/constants/constants.tsx",
         lineNumber: 89,
         columnNumber: 9
-    }, this)
+    }, this),
+    src: "/assets/gallery/hero.png"
+};
+const hero_data_contactus = {
+    t1: "Contact",
+    t2: "Us",
+    description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+        className: "md:text-2xl md:mx-44 text-lg mx-10",
+        children: [
+            "We’re here to help! Whether you need ",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "text-[#94f312]",
+                children: "expert landscaping services, "
+            }, void 0, false, {
+                fileName: "[project]/src/constants/constants.tsx",
+                lineNumber: 103,
+                columnNumber: 50
+            }, this),
+            ",",
+            " ",
+            "have",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "text-[#94f312]",
+                children: "questions about our offerings "
+            }, void 0, false, {
+                fileName: "[project]/src/constants/constants.tsx",
+                lineNumber: 104,
+                columnNumber: 13
+            }, this),
+            ", or want a ",
+            " ",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "text-[#94f312]",
+                children: "free quote,"
+            }, void 0, false, {
+                fileName: "[project]/src/constants/constants.tsx",
+                lineNumber: 105,
+                columnNumber: 13
+            }, this),
+            "don’t hesitate to reach out. Our friendly team is ready to assist you with all your lawn and garden needs, ensuring your outdoor space stays beautiful and well-maintained.",
+            " ",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "text-[#94f312]",
+                children: "Contact us today!"
+            }, void 0, false, {
+                fileName: "[project]/src/constants/constants.tsx",
+                lineNumber: 106,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/constants/constants.tsx",
+        lineNumber: 102,
+        columnNumber: 9
+    }, this),
+    src: "/assets/contact/hero.png"
 };
 const sections = [
     {
@@ -285,6 +342,17 @@ const sections = [
         img: "/assets/services/6.png",
         icon: "/assets/services/6.svg"
     }
+];
+const galleryImages = [
+    "/assets/gallery/1.png",
+    "/assets/gallery/2.png",
+    "/assets/gallery/3.png",
+    "/assets/gallery/4.png",
+    "/assets/gallery/5.png",
+    "/assets/gallery/6.png",
+    "/assets/gallery/7.png",
+    "/assets/gallery/8.png",
+    "/assets/gallery/9.png"
 ];
 }}),
 "[project]/src/ components/aboutus/ourstory.jsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
@@ -785,7 +853,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link
 const ButtonGreen = ({ text })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
         href: "#",
-        className: "bg-[#65991d] text-white px-8 py-3 font-medium border-2 border-[#65991d] transition-all duration-300 hover:bg-transparent hover:text-[#65991d]",
+        className: "bg-[#65991d] text-white px-8 py-3 font-medium border-2 border-[#65991d] transition-all duration-300 hover:bg-transparent  hover:text-[#65991d]",
         children: text
     }, void 0, false, {
         fileName: "[project]/src/ components/Button/button.tsx",
@@ -796,7 +864,7 @@ const ButtonGreen = ({ text })=>{
 const ButtonLight = ({ text })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
         href: "#",
-        className: "bg-white text-[#65991d] px-8 py-3 font-medium border-2 border-[#65991d] transition-all duration-300 hover:bg-[#65991d] hover:text-white",
+        className: "bg-white text-[#65991d] px-8 py-3 font-medium border-2 border-[#65991d] transition-all duration-300 hover:bg-[#65991d] hover:text-white hover:border-white",
         children: text
     }, void 0, false, {
         fileName: "[project]/src/ components/Button/button.tsx",

@@ -95,6 +95,20 @@ export const hero_data_gallery: any = {
     ),
     src: "/assets/gallery/hero.png"
 }
+export const hero_data_contactus: any = {
+    t1: "Contact",
+    t2: "Us",
+    description: (
+        <p className="md:text-2xl md:mx-44 text-lg mx-10">
+            We’re here to help! Whether you need <span className="text-[#94f312]">expert landscaping services, </span>,{" "}have
+            <span className="text-[#94f312]">questions about our offerings </span>, or want a {" "}
+            <span className="text-[#94f312]">free quote,</span>don’t hesitate to reach out. Our friendly team is ready to assist you with all your lawn and garden needs, ensuring your outdoor space stays beautiful and well-maintained.{" "}
+            <span className="text-[#94f312]">Contact us today!</span> 
+
+        </p>
+    ),
+    src: "/assets/contact/hero.png"
+}
 
 
 export const sections = [
@@ -168,7 +182,7 @@ export const sections = [
 
 
 // Gallery
-export const  galleryImages = [
+export const galleryImages = [
     "/assets/gallery/1.png",
     "/assets/gallery/2.png",
     "/assets/gallery/3.png",

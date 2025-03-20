@@ -5,7 +5,7 @@ import React from 'react'
 import { footer_text ,footer_contact  } from '@/constants/constants'
 export default function Footer() {
     return (
-        <footer className="bg-[#535355] text-white pt-12 pb-4">
+        <footer className="bg-[#535355] text-white pt-12">
             <div className="container mx-auto px-4">
                 <div className="grid md:grid-cols-3 gap-8 mb-8 md:px-52 px-10 ">
                     <div className='max-md:text-center'>
@@ -18,14 +18,14 @@ export default function Footer() {
                                 className="mr-2"
                             />
                         </div>
-                        <p className="text-sm mb-4 border-b  pb-12">
+                        <p className="text-sm mb-4 max-md:border-b  pb-12">
                             {footer_text}
                         </p> 
                     </div>
                     
                     <div className=''>
                         <h3 className="font-bold mb-4">Our Services</h3>
-                        <ul className="space-y-2 text-sm cursor-pointer  border-b  pb-12">
+                        <ul className="space-y-2 text-sm cursor-pointer  max-md:border-b  pb-12">
                             <li className='hover:text-gray'>Landscape Design & Installation</li>
                             <li className='hover:text-gray'>Tree, Shrub & Lawn Planting</li>
                             <li className='hover:text-gray'>Weekly Lawn Maintenance</li>
@@ -66,8 +66,8 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="text-center text-xs border-t  pt-4">COPYRIGHT M.RAMIREZ LANDSCAPING, INC.</div>
             </div>
+                    <div className="text-center text-xl font-light bg-neonGreen  p-2">COPYRIGHT M.RAMIREZ LANDSCAPING, INC.</div>
         </footer>
     )
 }
