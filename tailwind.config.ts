@@ -14,6 +14,7 @@ module.exports = {
         softWhite: "#F8F8F5", // Soft White
         darkGray: "#535355",  // Dark Gray
         offWhite: "#F9F9F9",  // Off White
+        lightGreen:"#F7FBF4"
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],

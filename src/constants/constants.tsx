@@ -74,42 +74,40 @@ export const hero_data_services: any = {
     description: (
         <p className="md:text-2xl md:mx-44 text-lg mx-10">
             Our services are designed to enhance and maintain the beauty of your outdoor space with expert care. From <span className="text-[#94f312]">landscape design and tree trimming</span>,{" "}
-            to sod installation and seasonal cleanup, we ensure your lawn and garden stay vibrant 
+            to sod installation and seasonal cleanup, we ensure your lawn and garden stay vibrant
             <span className="text-[#94f312]">year-round.</span>, and{" "} With attention to detail and a passion for greenery, we bring your outdoor vision to life!
-              
+
         </p>
     ),
-    src:"/assets/services/hero.png"
+    src: "/assets/services/hero.png"
 }
 
 export const hero_data_gallery: any = {
-    t1: "About",
-    t2: "Us",
+    t1: "Our",
+    t2: "Gallery",
     description: (
         <p className="md:text-2xl md:mx-44 text-lg mx-10">
-            What sets us apart? Our commitment to <span className="text-[#94f312]">excellence</span>,{" "}
-            <span className="text-[#94f312]">attention to detail</span>, and{" "}
-            <span className="text-[#94f312]">customer satisfaction</span>. We treat every{" "}
-            <span className="text-[#94f312]">lawn and garden</span> as if it were our own, ensuring the highest level
-            of care and professionalism. Whether you're looking to{" "}
-            <span className="text-[#94f312]">refresh your outdoor space</span> or need ongoing maintenance, our team
-            is here to bring your vision to life.
+            Browse through our <span className="text-[#94f312]">gallery </span>,{" "}to see stunning examples of our
+            <span className="text-[#94f312]">landscape transformations.</span>, From vibrant gardens to manicured lawns and flawless{" "}
+            <span className="text-[#94f312]">sod installations,</span>. our work reflects our dedication and expert craftsmanship. Each project is a testament to our passion for creating beautiful outdoor spaces. Let these images inspire your next{" "}
+            <span className="text-[#94f312]">landscaping project.</span> Your perfect landscape is waiting to be brought to life!
         </p>
-    )
+    ),
+    src: "/assets/gallery/hero.png"
 }
 
 
 export const sections = [
     {
-        title:"Landscape Design & Installation",
-        h1:"Custom Garden Creations",
-        h2:"Seasonal Plant Selection",
-        h3:"Expert Installation",
-        desc_1:"Our team designs tailored garden layouts to enhance the beauty and functionality of your outdoor space. Whether you prefer a modern, structured look or a natural, flowing design, we bring your vision to life" ,
-        desc_2:" We carefully choose flowers, shrubs, and greenery based on the season, ensuring your garden remains colorful and vibrant all year round. Our selections are made to thrive in your local climate.",
-        desc_3:" From preparing the soil to planting and arranging features, our professionals ensure a seamless installation process. We focus on durability, aesthetics, and long-term plant health for a stunning landscape",
-        img:"/assets/services/1.png",
-        icon:"/assets/services/11.svg"
+        title: "Landscape Design & Installation",
+        h1: "Custom Garden Creations",
+        h2: "Seasonal Plant Selection",
+        h3: "Expert Installation",
+        desc_1: "Our team designs tailored garden layouts to enhance the beauty and functionality of your outdoor space. Whether you prefer a modern, structured look or a natural, flowing design, we bring your vision to life",
+        desc_2: " We carefully choose flowers, shrubs, and greenery based on the season, ensuring your garden remains colorful and vibrant all year round. Our selections are made to thrive in your local climate.",
+        desc_3: " From preparing the soil to planting and arranging features, our professionals ensure a seamless installation process. We focus on durability, aesthetics, and long-term plant health for a stunning landscape",
+        img: "/assets/services/1.png",
+        icon: "/assets/services/11.svg"
     },
     {
         title: "Tree, Shrub & Turf Trimming",
@@ -167,3 +165,17 @@ export const sections = [
         icon: "/assets/services/6.svg",
     },
 ]
+
+
+// Gallery
+export const  galleryImages = [
+    "/assets/gallery/1.png",
+    "/assets/gallery/2.png",
+    "/assets/gallery/3.png",
+    "/assets/gallery/4.png",
+    "/assets/gallery/5.png",
+    "/assets/gallery/6.png",
+    "/assets/gallery/7.png",
+    "/assets/gallery/8.png",
+    "/assets/gallery/9.png",
+];

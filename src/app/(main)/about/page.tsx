@@ -15,7 +15,6 @@ const AboutUs = () => {
       <OurApproach />
       <Testimonials />
       <Contact />
-      <Footer />
     </div>
   );
 };

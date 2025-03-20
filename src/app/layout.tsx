@@ -7,6 +7,7 @@ import Link from "next/link"
 import { Phone, Instagram, Facebook, PhoneCall } from "lucide-react"
 import { usePathname } from "next/navigation";
 import Navbar from '@/ components/Navbar/navbar';
+import Footer from '@/ components/aboutus/footer';
 
 
 
@@ -54,6 +55,8 @@ export default function RootLayout({
           </div>
         </header>
         {children}
+        
+        <Footer />
       </body>
     </html>
   );
