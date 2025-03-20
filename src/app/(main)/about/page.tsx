@@ -2,6 +2,7 @@ import React from 'react';
 import OurStory from '@/ components/aboutus/ourstory';
 import OurApproach from '@/ components/aboutus/ourapproach'
 import Testimonials from '@/ components/aboutus/testimonials';
+import Contact from '@/ components/aboutus/contact';
 const AboutUs = () => {
   return (
     <div className="">
@@ -33,7 +34,8 @@ const AboutUs = () => {
       </div>
       <OurStory />
       <OurApproach />
-<Testimonials />
+      <Testimonials />
+      <Contact />
     </div>
   );
 };

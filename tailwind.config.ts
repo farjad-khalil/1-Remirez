@@ -7,7 +7,7 @@ module.exports = {
       colors: {
         primary: "#598C12",   // Green
         white: "#FFFFFF",     // White
-        neonGreen: "#94F312", // Bright Green
+        neonGreen: "#65991d", // Bright Green
         black: "#000000",     // Black
         lightGray: "#EDEDEC", // Light Gray
         gray: "#DDDDDD",      // Gray

@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function OurApproach() {
     return (
         <div>
-            <section className="bg-[#f8fbf5] pb-12 ">
+            <section className="bg-softWhite pb-12 ">
                 <div className=" mx-auto ">
                     <div className="flex items-center w-full bg-white pt-12 px-8">
                         <div className="flex-1 h-[3px] bg-[#65991d]"></div>

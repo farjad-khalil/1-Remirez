@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
 
-      <body className='flex flex-col min-h-screen '>
+      <body className='flex flex-col min-h-screen montserrat-regular'>
 
         <div className="bg-white py-1 px-16 flex justify-end items-center text-sm ">
           <div className='text-[#65991d] flex flex-row text-2xl items-center'>
