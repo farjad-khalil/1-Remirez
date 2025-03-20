@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import { Phone, Instagram, Facebook } from "lucide-react"
 
 export default function Home() {

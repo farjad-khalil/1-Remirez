@@ -10,7 +10,7 @@ const AboutUs = () => {
   
   return (
     <div className="">
-      <Hero t1={hero_data_aboutus.t1} t2={hero_data_aboutus.t2} description={hero_data_aboutus.description} />
+      <Hero t1={hero_data_aboutus.t1} t2={hero_data_aboutus.t2} description={hero_data_aboutus.description} src={hero_data_aboutus.src} />
       <OurStory />
       <OurApproach />
       <Testimonials />

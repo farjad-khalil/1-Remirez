@@ -10,6 +10,8 @@ __turbopack_esm__({
     "footer_contact": (()=>footer_contact),
     "footer_text": (()=>footer_text),
     "hero_data_aboutus": (()=>hero_data_aboutus),
+    "hero_data_gallery": (()=>hero_data_gallery),
+    "hero_data_services": (()=>hero_data_services),
     "our_story_text": (()=>our_story_text),
     "testimonialsData": (()=>testimonialsData)
 });
@@ -72,7 +74,7 @@ const hero_data_aboutus = {
                 children: "excellence"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 58,
+                lineNumber: 59,
                 columnNumber: 51
             }, this),
             ",",
@@ -82,7 +84,7 @@ const hero_data_aboutus = {
                 children: "attention to detail"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 59,
+                lineNumber: 60,
                 columnNumber: 13
             }, this),
             ", and",
@@ -92,7 +94,7 @@ const hero_data_aboutus = {
                 children: "customer satisfaction"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 60,
+                lineNumber: 61,
                 columnNumber: 13
             }, this),
             ". We treat every",
@@ -102,7 +104,7 @@ const hero_data_aboutus = {
                 children: "lawn and garden"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 61,
+                lineNumber: 62,
                 columnNumber: 13
             }, this),
             " as if it were our own, ensuring the highest level of care and professionalism. Whether you're looking to",
@@ -112,14 +114,115 @@ const hero_data_aboutus = {
                 children: "refresh your outdoor space"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 63,
+                lineNumber: 64,
                 columnNumber: 13
             }, this),
             " or need ongoing maintenance, our team is here to bring your vision to life."
         ]
     }, void 0, true, {
         fileName: "[project]/src/constants/constants.tsx",
-        lineNumber: 57,
+        lineNumber: 58,
+        columnNumber: 9
+    }, this),
+    src: "/assets/aboutus/hero_image.png" // Ensure it's correctly formatted
+};
+const hero_data_services = {
+    t1: "Our",
+    t2: "Services",
+    description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+        className: "md:text-2xl md:mx-44 text-lg mx-10",
+        children: [
+            "Our services are designed to enhance and maintain the beauty of your outdoor space with expert care. From ",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "text-[#94f312]",
+                children: "landscape design and tree trimming"
+            }, void 0, false, {
+                fileName: "[project]/src/constants/constants.tsx",
+                lineNumber: 76,
+                columnNumber: 119
+            }, this),
+            ",",
+            " ",
+            "to sod installation and seasonal cleanup, we ensure your lawn and garden stay vibrant",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "text-[#94f312]",
+                children: "year-round."
+            }, void 0, false, {
+                fileName: "[project]/src/constants/constants.tsx",
+                lineNumber: 78,
+                columnNumber: 13
+            }, this),
+            ", and",
+            " ",
+            " With attention to detail and a passion for greenery, we bring your outdoor vision to life!"
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/constants/constants.tsx",
+        lineNumber: 75,
+        columnNumber: 9
+    }, this),
+    src: "/assets/services/hero.png"
+};
+const hero_data_gallery = {
+    t1: "About",
+    t2: "Us",
+    description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+        className: "md:text-2xl md:mx-44 text-lg mx-10",
+        children: [
+            "What sets us apart? Our commitment to ",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "text-[#94f312]",
+                children: "excellence"
+            }, void 0, false, {
+                fileName: "[project]/src/constants/constants.tsx",
+                lineNumber: 90,
+                columnNumber: 51
+            }, this),
+            ",",
+            " ",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "text-[#94f312]",
+                children: "attention to detail"
+            }, void 0, false, {
+                fileName: "[project]/src/constants/constants.tsx",
+                lineNumber: 91,
+                columnNumber: 13
+            }, this),
+            ", and",
+            " ",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "text-[#94f312]",
+                children: "customer satisfaction"
+            }, void 0, false, {
+                fileName: "[project]/src/constants/constants.tsx",
+                lineNumber: 92,
+                columnNumber: 13
+            }, this),
+            ". We treat every",
+            " ",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "text-[#94f312]",
+                children: "lawn and garden"
+            }, void 0, false, {
+                fileName: "[project]/src/constants/constants.tsx",
+                lineNumber: 93,
+                columnNumber: 13
+            }, this),
+            " as if it were our own, ensuring the highest level of care and professionalism. Whether you're looking to",
+            " ",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "text-[#94f312]",
+                children: "refresh your outdoor space"
+            }, void 0, false, {
+                fileName: "[project]/src/constants/constants.tsx",
+                lineNumber: 95,
+                columnNumber: 13
+            }, this),
+            " or need ongoing maintenance, our team is here to bring your vision to life."
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/constants/constants.tsx",
+        lineNumber: 89,
         columnNumber: 9
     }, this)
 };

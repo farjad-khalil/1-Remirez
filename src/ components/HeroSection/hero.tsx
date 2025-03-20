@@ -1,18 +1,20 @@
-import React from 'react'
+import Image from "next/image";
 
-export default function Hero({t1,t2,description}:any) {
+export default function Hero({t1,t2,description,src}:any) {
     return (
-        <div className="relative w-full h-[600px] ">
+        <div className="relative w-full h-[600px]">
             {/* Background Image */}
-            <img
-                src="/assets/aboutus/hero_image.png"
+            <Image
+                src={src} // Now it works
                 alt="Hero"
-                className="w-full h-full object-cover"
+                layout="fill"
+                objectFit="cover"
+                className="w-full h-full"
             />
 
             {/* Overlay Text */}
             <div className="absolute inset-0 flex items-center justify-center text-white font-bold bg-black bg-opacity-10 text-center">
-                <div className="">
+                <div>
                     <h1 className="text-4xl md:text-7xl font-bold mb-6">
                         {t1} <span className="text-[#94f312]">{t2}</span>
                     </h1>
@@ -20,5 +22,5 @@ export default function Hero({t1,t2,description}:any) {
                 </div>
             </div>
         </div>
-    )
+    );
 }
