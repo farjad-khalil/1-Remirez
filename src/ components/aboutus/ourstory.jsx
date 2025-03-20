@@ -15,7 +15,7 @@ export default function OurStory() {
 
                                 <div className="">
                                     <span className="text-4xl font-bold text-white mb-4">{our_story_text.heading}</span>
-                                    <span className='text-4xl font-extralight  text-white '>{our_story_text.description}</span>
+                                    <span className='text-4xl montserrat-light  text-white '>{our_story_text.description}</span>
                                 </div>
                             </div>
 

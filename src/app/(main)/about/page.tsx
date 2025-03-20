@@ -1,5 +1,7 @@
 import React from 'react';
 import OurStory from '@/ components/aboutus/ourstory';
+import OurApproach from '@/ components/aboutus/ourapproach'
+import Testimonials from '@/ components/aboutus/testimonials';
 const AboutUs = () => {
   return (
     <div className="">
@@ -30,8 +32,8 @@ const AboutUs = () => {
         </div>
       </div>
       <OurStory />
-
-
+      <OurApproach />
+<Testimonials />
     </div>
   );
 };

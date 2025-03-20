@@ -138,6 +138,8 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$aboutus$2f$ourstory$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/ components/aboutus/ourstory.jsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$aboutus$2f$ourapproach$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/ components/aboutus/ourapproach.jsx [app-rsc] (ecmascript)");
+;
 ;
 ;
 const AboutUs = ()=>{
@@ -153,7 +155,7 @@ const AboutUs = ()=>{
                         className: "w-full h-full object-cover"
                     }, void 0, false, {
                         fileName: "[project]/src/app/(main)/about/page.tsx",
-                        lineNumber: 8,
+                        lineNumber: 9,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -170,13 +172,13 @@ const AboutUs = ()=>{
                                             children: "Us"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/about/page.tsx",
-                                            lineNumber: 18,
+                                            lineNumber: 19,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(main)/about/page.tsx",
-                                    lineNumber: 17,
+                                    lineNumber: 18,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -188,7 +190,7 @@ const AboutUs = ()=>{
                                             children: "excellence"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/about/page.tsx",
-                                            lineNumber: 21,
+                                            lineNumber: 22,
                                             columnNumber: 53
                                         }, this),
                                         ",",
@@ -198,7 +200,7 @@ const AboutUs = ()=>{
                                             children: "attention to detail"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/about/page.tsx",
-                                            lineNumber: 22,
+                                            lineNumber: 23,
                                             columnNumber: 15
                                         }, this),
                                         ", and",
@@ -208,7 +210,7 @@ const AboutUs = ()=>{
                                             children: "customer satisfaction"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/about/page.tsx",
-                                            lineNumber: 23,
+                                            lineNumber: 24,
                                             columnNumber: 15
                                         }, this),
                                         ". We treat every",
@@ -218,7 +220,7 @@ const AboutUs = ()=>{
                                             children: "lawn and garden"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/about/page.tsx",
-                                            lineNumber: 24,
+                                            lineNumber: 25,
                                             columnNumber: 15
                                         }, this),
                                         " as if it were our own, ensuring the highest level of care and professionalism. Whether you're looking to",
@@ -228,42 +230,47 @@ const AboutUs = ()=>{
                                             children: "refresh your outdoor space"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(main)/about/page.tsx",
-                                            lineNumber: 26,
+                                            lineNumber: 27,
                                             columnNumber: 15
                                         }, this),
                                         " or need ongoing maintenance, our team is here to bring your vision to life."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(main)/about/page.tsx",
-                                    lineNumber: 20,
+                                    lineNumber: 21,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(main)/about/page.tsx",
-                            lineNumber: 16,
+                            lineNumber: 17,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/(main)/about/page.tsx",
-                        lineNumber: 15,
+                        lineNumber: 16,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/(main)/about/page.tsx",
-                lineNumber: 6,
+                lineNumber: 7,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$aboutus$2f$ourstory$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(main)/about/page.tsx",
-                lineNumber: 32,
+                lineNumber: 33,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$aboutus$2f$ourapproach$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/app/(main)/about/page.tsx",
+                lineNumber: 34,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/(main)/about/page.tsx",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 5
     }, this);
 };

@@ -21,9 +21,9 @@ export default function RootLayout({
 
       <body className='flex flex-col min-h-screen '>
 
-        <div className="bg-white py-1 px-4 flex justify-end items-center text-sm">
+        <div className="bg-white py-1 px-16 flex justify-end items-center text-sm ">
           <div className='text-[#65991d] flex flex-row text-2xl items-center'>
-            <span className="mr-2 font-extralight ">Call Us: </span><PhoneCall />
+            <span className="mr-2 montserrat-light ">Call Us: </span><PhoneCall />
             <Link href="tel:(516) 270-7024" className="text-[#65991d] font-bold">
               (516) 270-7024
             </Link>
