@@ -3,6 +3,7 @@ import { ButtonGreen, ButtonGreenBright, ButtonWhite } from '@/ components/Butto
 import { DividerCenter, DividerLeft } from '@/ components/Divider/divider';
 import Hero from '@/ components/HeroSection/hero';
 import ChooseUs from '@/ components/Home/choose';
+import ContactForm from '@/ components/Home/Contact';
 import Info from '@/ components/Home/info';
 import Offer from '@/ components/Home/offer';
 import ServiceCards from '@/ components/Home/services';
@@ -29,6 +30,8 @@ export default function Home() {
         <ChooseUs />
 
         <Testimonial />
+
+        <ContactForm />
       </main>
     </div>
   );

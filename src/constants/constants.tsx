@@ -304,3 +304,8 @@ export const services_data = [
         "Your satisfaction is our priority. We work closely with you to ensure the final result exceeds your expectations.",
     },
   ]
+
+export const contact_data = {
+    h1:"Want a Free Estimate?",
+    desc:"We're here to bring your outdoor vision to life! Whether you need landscape design, tree trimming, sod installation, or seasonal cleanup, our expert team is ready to assist."
+}

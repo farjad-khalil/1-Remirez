@@ -47,6 +47,7 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 // About US Page
 __turbopack_esm__({
     "accordion_data": (()=>accordion_data),
+    "contact_data": (()=>contact_data),
     "footer_contact": (()=>footer_contact),
     "footer_text": (()=>footer_text),
     "galleryImages": (()=>galleryImages),
@@ -557,6 +558,10 @@ const accordion_data = [
         content: "Your satisfaction is our priority. We work closely with you to ensure the final result exceeds your expectations."
     }
 ];
+const contact_data = {
+    h1: "Want a Free Estimate?",
+    desc: "We're here to bring your outdoor vision to life! Whether you need landscape design, tree trimming, sod installation, or seasonal cleanup, our expert team is ready to assist."
+};
 }}),
 "[project]/src/ components/Divider/divider.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
