@@ -22,7 +22,7 @@ export default function Contact() {
                     enhancements, we bring beauty and care to every corner of your outdoor environment.
                 </p>
                 <div className="flex flex-col sm:flex-row justify-center gap-4 items-center">
-                    <ButtonWhite text={"Contact Us"} />
+                    <ButtonWhite text={"Contact Us"} to="/contact" />
 
                     {/* Outlined Button - Becomes Filled on Hover */}
                     <ButtonGreenBright text={"Call us"} />

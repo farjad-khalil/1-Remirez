@@ -236,9 +236,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [app-rsc] (ecmascript)");
 ;
 ;
-const ButtonGreen = ({ text, hover = true, border_white = false })=>{
+const ButtonGreen = ({ text, hover = true, border_white = false, to = null })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-        href: "#",
+        href: `${to ? to : "#"}`,
         className: `bg-neonGreen text-white px-8 py-3 font-medium border-2 border-white transition-all duration-300   ${hover ? border_white ? "hover:bg-transparent  hover:text-white" : "hover:bg-transparent hover:text-neonGreen hover:border-neonGreen" : ""} `,
         children: text
     }, void 0, false, {
@@ -247,9 +247,9 @@ const ButtonGreen = ({ text, hover = true, border_white = false })=>{
         columnNumber: 5
     }, this);
 };
-const ButtonLight = ({ text })=>{
+const ButtonLight = ({ text, to })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-        href: "#",
+        href: `${to ? to : "#"}`,
         className: "bg-white text-neonGreen px-8 py-3 font-medium border-2 border-neonGreen transition-all duration-300 hover:bg-neonGreen hover:text-white hover:border-white",
         children: text
     }, void 0, false, {
@@ -258,9 +258,9 @@ const ButtonLight = ({ text })=>{
         columnNumber: 5
     }, this);
 };
-const ButtonGreenBright = ({ text })=>{
+const ButtonGreenBright = ({ text, to })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-        href: "#",
+        href: `${to ? to : "#"}`,
         className: "bg-BrightGreen w-60 py-4 font-bold text-black shadow-lg shadow-black ",
         children: text
     }, void 0, false, {
@@ -269,9 +269,9 @@ const ButtonGreenBright = ({ text })=>{
         columnNumber: 5
     }, this);
 };
-const ButtonWhite = ({ text })=>{
+const ButtonWhite = ({ text, to })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-        href: "#",
+        href: `${to ? to : "#"}`,
         className: "bg-white w-60  py-4 font-bold text-black shadow-lg shadow-black ",
         children: text
     }, void 0, false, {
@@ -434,7 +434,7 @@ function Offer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "md:text-4xl text-2xl font-bold text-neutral-600 mb-4 leading-tight",
+                                    className: "md:text-4xl text-2xl font-bold text-neutral-600 mb-8 leading-tight",
                                     children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$constants$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["services_heading"].h1
                                 }, void 0, false, {
                                     fileName: "[project]/src/ components/Home/offer.tsx",

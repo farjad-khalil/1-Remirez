@@ -112,7 +112,7 @@ export default function ServiceCards() {
             </div>
             <div className="my-8 flex justify-center">
 
-                <ButtonGreen text="See All Services" hover={false} />
+                <ButtonGreen text="See All Services" to="/services"  hover={false} />
             </div>
         </section>
     )

@@ -9,7 +9,7 @@ export default function Offer() {
         {/* Left Column - Heading and Plant Image */}
         <div className="space-y-8">
           <div>
-            <h2 className="md:text-4xl text-2xl font-bold text-neutral-600 mb-4 leading-tight">
+            <h2 className="md:text-4xl text-2xl font-bold text-neutral-600 mb-8 leading-tight">
               {services_heading.h1}
             </h2>
             <p className="text-2xl  text-neonGreen">

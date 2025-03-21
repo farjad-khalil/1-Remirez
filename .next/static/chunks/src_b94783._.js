@@ -354,9 +354,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [app-client] (ecmascript)");
 ;
 ;
-const ButtonGreen = ({ text, hover = true, border_white = false })=>{
+const ButtonGreen = ({ text, hover = true, border_white = false, to = null })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-        href: "#",
+        href: `${to ? to : "#"}`,
         className: `bg-neonGreen text-white px-8 py-3 font-medium border-2 border-white transition-all duration-300   ${hover ? border_white ? "hover:bg-transparent  hover:text-white" : "hover:bg-transparent hover:text-neonGreen hover:border-neonGreen" : ""} `,
         children: text
     }, void 0, false, {
@@ -366,9 +366,9 @@ const ButtonGreen = ({ text, hover = true, border_white = false })=>{
     }, this);
 };
 _c = ButtonGreen;
-const ButtonLight = ({ text })=>{
+const ButtonLight = ({ text, to })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-        href: "#",
+        href: `${to ? to : "#"}`,
         className: "bg-white text-neonGreen px-8 py-3 font-medium border-2 border-neonGreen transition-all duration-300 hover:bg-neonGreen hover:text-white hover:border-white",
         children: text
     }, void 0, false, {
@@ -378,9 +378,9 @@ const ButtonLight = ({ text })=>{
     }, this);
 };
 _c1 = ButtonLight;
-const ButtonGreenBright = ({ text })=>{
+const ButtonGreenBright = ({ text, to })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-        href: "#",
+        href: `${to ? to : "#"}`,
         className: "bg-BrightGreen w-60 py-4 font-bold text-black shadow-lg shadow-black ",
         children: text
     }, void 0, false, {
@@ -390,9 +390,9 @@ const ButtonGreenBright = ({ text })=>{
     }, this);
 };
 _c2 = ButtonGreenBright;
-const ButtonWhite = ({ text })=>{
+const ButtonWhite = ({ text, to })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-        href: "#",
+        href: `${to ? to : "#"}`,
         className: "bg-white w-60  py-4 font-bold text-black shadow-lg shadow-black ",
         children: text
     }, void 0, false, {
@@ -426,7 +426,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$Butto
 ;
 ;
 ;
-function Hero({ t1, t2, description, src, extra_class, buttons = false, btn_1, btn_2 }) {
+function Hero({ t1, t2, description, src, extra_class, buttons = false, btn_1, btn_2, to_1, to_2 }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: `relative w-full h-[600px] ${extra_class} `,
         children: [
@@ -469,14 +469,16 @@ function Hero({ t1, t2, description, src, extra_class, buttons = false, btn_1, b
                             className: "py-20 flex gap-10 justify-center max-md:flex-col items-center",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$Button$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ButtonWhite"], {
-                                    text: btn_1
+                                    text: btn_1,
+                                    to: to_1
                                 }, void 0, false, {
                                     fileName: "[project]/src/ components/HeroSection/hero.tsx",
                                     lineNumber: 27,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$Button$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ButtonGreenBright"], {
-                                    text: btn_2
+                                    text: btn_2,
+                                    to: to_2
                                 }, void 0, false, {
                                     fileName: "[project]/src/ components/HeroSection/hero.tsx",
                                     lineNumber: 28,
@@ -778,7 +780,7 @@ function ChooseUs() {
                                             className: "border-t border-white/20 py-1",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionTrigger"], {
-                                                    className: "text-left font-medium hover:no-underline",
+                                                    className: "bg-white text-black text-left p-4 font-medium hover:no-underline",
                                                     children: item.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/ components/Home/choose.tsx",
@@ -786,7 +788,7 @@ function ChooseUs() {
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionContent"], {
-                                                    className: "text-white/90",
+                                                    className: "bg-white text-black p-4  ",
                                                     children: item.content
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/ components/Home/choose.tsx",
@@ -1302,6 +1304,7 @@ function ServiceCards() {
                 className: "my-8 flex justify-center",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$Button$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ButtonGreen"], {
                     text: "See All Services",
+                    to: "/services",
                     hover: false
                 }, void 0, false, {
                     fileName: "[project]/src/ components/Home/services.tsx",

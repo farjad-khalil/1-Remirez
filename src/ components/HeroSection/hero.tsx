@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { ButtonGreenBright, ButtonWhite } from "../Button/button";
 
-export default function Hero({ t1, t2, description, src, extra_class, buttons=false,btn_1 , btn_2 }: any) {
+export default function Hero({ t1, t2, description, src, extra_class, buttons=false,btn_1 , btn_2 ,to_1 , to_2}: any) {
 
     return (
         <div className={`relative w-full h-[600px] ${extra_class} `}>
@@ -24,8 +24,8 @@ export default function Hero({ t1, t2, description, src, extra_class, buttons=fa
                     {description}
                     {buttons ?
                         <div className="py-20 flex gap-10 justify-center max-md:flex-col items-center">
-                            <ButtonWhite text={btn_1} />
-                            <ButtonGreenBright text={btn_2} />
+                            <ButtonWhite text={btn_1} to={to_1} />
+                            <ButtonGreenBright text={btn_2} to={to_2} />
                         </div>
                         : <div className="hidden"></div>}
 

@@ -520,6 +520,10 @@ body {
   margin-bottom: .5rem;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .mb-24 {
   margin-bottom: 6rem;
 }
@@ -558,14 +562,6 @@ body {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mb-1 {
-  margin-bottom: .25rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .block {
@@ -1417,12 +1413,6 @@ body {
   transition-duration: .15s;
 }
 
-.transition-colors {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
-  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
-  transition-duration: .15s;
-}
-
 .transition-opacity {
   transition-property: opacity;
   transition-timing-function: cubic-bezier(.4, 0, .2, 1);
@@ -1594,10 +1584,6 @@ body {
 .hover\:bg-neonGreen:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(101 153 29 / var(--tw-bg-opacity, 1));
-}
-
-.hover\:bg-neonGreen\/90:hover {
-  background-color: #65991de6;
 }
 
 .hover\:bg-transparent:hover {

@@ -66,8 +66,8 @@ export default function ChooseUs() {
                         <Accordion type="single" collapsible defaultValue="item-0">
                             {accordion_data.map((item, index) => (
                                 <AccordionItem key={index} value={`item-${index}`} className="border-t border-white/20 py-1">
-                                    <AccordionTrigger className="text-left font-medium hover:no-underline">{item.title}</AccordionTrigger>
-                                    <AccordionContent className="text-white/90">{item.content}</AccordionContent>
+                                    <AccordionTrigger className="bg-white text-black text-left p-4 font-medium hover:no-underline">{item.title}</AccordionTrigger>
+                                    <AccordionContent className="bg-white text-black p-4  ">{item.content}</AccordionContent>
                                 </AccordionItem>
                             ))}
                         </Accordion>

@@ -32,9 +32,9 @@ export default function RootLayout({
               <Facebook size={30} strokeWidth={0.75} className="text-neonGreen fill-white" />
             </Link>
           </div>
-          <div className='text-[#65991d] flex flex-row text-2xl items-center'>
-            <span className="mr-2 montserrat-light ">Call Us: </span><PhoneCall />
-            <Link href="tel:(516) 270-7024" className="text-[#65991d] font-bold">
+          <div className='text-[#65991d] flex flex-row gap-4 text-2xl items-center'>
+            <span className="mr-2  ">Call Us  </span><img src="/assets/home/phone.png" alt="phone_icon" />
+            <Link href="tel:(516) 270-7024" className="text-[#65991d] font-medium">
               (516) 270-7024
             </Link>
           </div>
