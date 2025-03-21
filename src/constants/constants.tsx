@@ -107,9 +107,9 @@ export const hero_data_home: any = {
     t2: "20 Years!",
     description: (
         <p className="md:text-2xl md:mx-44 text-lg mx-10">
-            With <span className="text-[#94f312]">years of expertise, </span>,{" "}we provide high-quality 
-            <span className="text-[#94f312]">landscaping and gardening, </span> services tailored to your needs, ensuring a lush, vibrant environment all year round. 
-                
+            With <span className="text-[#94f312]">years of expertise, </span>,{" "}we provide high-quality
+            <span className="text-[#94f312]">landscaping and gardening, </span> services tailored to your needs, ensuring a lush, vibrant environment all year round.
+
         </p>
     ),
     src: "/assets/home/hero.png"
@@ -207,4 +207,13 @@ export const footer_contact = {
     mail: "mramirezlandscaper@gmail.com",
     url: "ramirez.net",
     location: "D block, H Road Nassur"
+}
+
+
+// Home Data
+export const home_info = {
+    heading: "At Ramirez Landscaping",
+    description: <div className="font-medium">
+        For over <strong className="font-semibold text-black">20</strong> years, we’ve grown solely through word of mouth and the heartfelt testimonials of our valued customers. Your trust and support have been the foundation of our success, and we couldn’t be more grateful.<br/><br/> We take pride in offering exceptional attention to detail, ensuring  <strong className="font-semibold text-black">100%</strong> customer satisfaction with every experience. Our loyal patrons are at the heart of everything we do, and we are honored to serve the Long Island community. Thank you for your continued support!"
+    </div>
 }

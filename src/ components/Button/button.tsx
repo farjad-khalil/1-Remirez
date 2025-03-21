@@ -6,7 +6,7 @@ export const ButtonGreen = ({ text }:any) => {
 
     <Link
       href="#"
-      className="bg-neonGreen text-white px-8 py-3 font-medium border-2 border-neonGreen transition-all duration-300 hover:bg-transparent  hover:text-neonGreen"
+      className="bg-neonGreen text-white px-8 py-3 font-medium border-2 border-white transition-all duration-300 hover:bg-transparent  hover:text-white"
     >
       {text}
     </Link>

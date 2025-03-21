@@ -16,6 +16,7 @@ __turbopack_esm__({
     "hero_data_gallery": (()=>hero_data_gallery),
     "hero_data_home": (()=>hero_data_home),
     "hero_data_services": (()=>hero_data_services),
+    "home_info": (()=>home_info),
     "our_story_text": (()=>our_story_text),
     "sections": (()=>sections),
     "testimonialsData": (()=>testimonialsData)
@@ -391,6 +392,48 @@ const footer_contact = {
     url: "ramirez.net",
     location: "D block, H Road Nassur"
 };
+const home_info = {
+    heading: "At Ramirez Landscaping",
+    description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "font-medium",
+        children: [
+            "For over ",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                className: "font-semibold text-black",
+                children: "20"
+            }, void 0, false, {
+                fileName: "[project]/src/constants/constants.tsx",
+                lineNumber: 217,
+                columnNumber: 18
+            }, this),
+            " years, we’ve grown solely through word of mouth and the heartfelt testimonials of our valued customers. Your trust and support have been the foundation of our success, and we couldn’t be more grateful.",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                fileName: "[project]/src/constants/constants.tsx",
+                lineNumber: 217,
+                columnNumber: 276
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                fileName: "[project]/src/constants/constants.tsx",
+                lineNumber: 217,
+                columnNumber: 281
+            }, this),
+            " We take pride in offering exceptional attention to detail, ensuring  ",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                className: "font-semibold text-black",
+                children: "100%"
+            }, void 0, false, {
+                fileName: "[project]/src/constants/constants.tsx",
+                lineNumber: 217,
+                columnNumber: 356
+            }, this),
+            ' customer satisfaction with every experience. Our loyal patrons are at the heart of everything we do, and we are honored to serve the Long Island community. Thank you for your continued support!"'
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/constants/constants.tsx",
+        lineNumber: 216,
+        columnNumber: 18
+    }, this)
+};
 }}),
 "[project]/src/ components/aboutus/ourstory.jsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
@@ -522,7 +565,7 @@ function DividerCenter({ t1, t2 }) {
         className: "flex items-center w-full bg-white md:pt-12 md:px-8 pt-4 px-4",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex-1 h-[1px] md:h-[3px] bg-[#65991d]"
+                className: "flex-1 h-[1px] md:h-[2.5px] bg-[#65991d]"
             }, void 0, false, {
                 fileName: "[project]/src/ components/Divider/divider.tsx",
                 lineNumber: 6,
@@ -599,7 +642,7 @@ function DividerLeft({ t1, t2 }) {
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex-1 h-[3px] bg-[#65991d]"
+                className: "flex-1 h-[2.5px] bg-[#65991d]"
             }, void 0, false, {
                 fileName: "[project]/src/ components/Divider/divider.tsx",
                 lineNumber: 22,
@@ -892,7 +935,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link
 const ButtonGreen = ({ text })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
         href: "#",
-        className: "bg-neonGreen text-white px-8 py-3 font-medium border-2 border-neonGreen transition-all duration-300 hover:bg-transparent  hover:text-neonGreen",
+        className: "bg-neonGreen text-white px-8 py-3 font-medium border-2 border-white transition-all duration-300 hover:bg-transparent  hover:text-white",
         children: text
     }, void 0, false, {
         fileName: "[project]/src/ components/Button/button.tsx",
