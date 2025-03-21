@@ -1,3 +1,4 @@
+import Testimonial from '@/ components/aboutus/testimonials';
 import { ButtonGreen, ButtonGreenBright, ButtonWhite } from '@/ components/Button/button';
 import { DividerCenter, DividerLeft } from '@/ components/Divider/divider';
 import Hero from '@/ components/HeroSection/hero';
@@ -26,6 +27,8 @@ export default function Home() {
 
         <DividerLeft t1="Why" t2="Choose Us" />
         <ChooseUs />
+
+        <Testimonial />
       </main>
     </div>
   );
