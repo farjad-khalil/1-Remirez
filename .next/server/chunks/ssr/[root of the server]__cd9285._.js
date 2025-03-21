@@ -286,6 +286,7 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 // About US Page
 __turbopack_esm__({
     "accordion_data": (()=>accordion_data),
+    "choose_data": (()=>choose_data),
     "contact_data": (()=>contact_data),
     "footer_contact": (()=>footer_contact),
     "footer_text": (()=>footer_text),
@@ -800,6 +801,10 @@ const accordion_data = [
 const contact_data = {
     h1: "Want a Free Estimate?",
     desc: "We're here to bring your outdoor vision to life! Whether you need landscape design, tree trimming, sod installation, or seasonal cleanup, our expert team is ready to assist."
+};
+const choose_data = {
+    h1: "At Ramirez Landscaping",
+    desc: "we take pride in delivering top-quality landscaping services tailored to your needs. Our expert team ensures your outdoor space remains lush, vibrant, and well-maintained throughout the year."
 };
 }}),
 "[project]/src/ components/Navbar/footer.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {

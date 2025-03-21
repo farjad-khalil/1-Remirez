@@ -65,7 +65,7 @@ function DividerCenter({ t1, t2 }) {
 _c = DividerCenter;
 function DividerLeft({ t1, t2 }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "flex items-center w-full bg-white pt-12 pb-8 md:pb-16 md:px-8",
+        className: "flex items-center w-full bg-white pt-12 px-5 pb-8 md:pb-16 md:px-8",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                 className: "px-4 md:text-4xl text-lg font-semibold",
@@ -676,7 +676,7 @@ function ChooseUs() {
                                 }, void 0, false, {
                                     fileName: "[project]/src/ components/Home/choose.tsx",
                                     lineNumber: 14,
-                                    columnNumber: 13
+                                    columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "mb-6",
@@ -684,55 +684,54 @@ function ChooseUs() {
                                 }, void 0, false, {
                                     fileName: "[project]/src/ components/Home/choose.tsx",
                                     lineNumber: 15,
-                                    columnNumber: 13
+                                    columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/ components/Home/choose.tsx",
                             lineNumber: 13,
-                            columnNumber: 11
+                            columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "px-6",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Accordion"], {
                                 type: "single",
                                 collapsible: true,
-                                defaultValue: "item-0",
                                 children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$constants$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["accordion_data"].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionItem"], {
                                         value: `item-${index}`,
-                                        className: "border-t border-white/20 py-1",
+                                        className: "bg-white  text-black border-t border-gray-300 my-3",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionTrigger"], {
-                                                className: "text-left font-medium hover:no-underline",
+                                                className: "bg-white text-black font-medium hover:no-underline p-4 w-full flex justify-between items-center",
                                                 children: item.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/ components/Home/choose.tsx",
-                                                lineNumber: 25,
-                                                columnNumber: 19
+                                                lineNumber: 30,
+                                                columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionContent"], {
-                                                className: "text-white/90",
+                                                className: "bg-white text-black p-4 border-t border-gray-300",
                                                 children: item.content
                                             }, void 0, false, {
                                                 fileName: "[project]/src/ components/Home/choose.tsx",
-                                                lineNumber: 26,
-                                                columnNumber: 19
+                                                lineNumber: 37,
+                                                columnNumber: 37
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/src/ components/Home/choose.tsx",
                                         lineNumber: 24,
-                                        columnNumber: 17
+                                        columnNumber: 33
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/ components/Home/choose.tsx",
                                 lineNumber: 22,
-                                columnNumber: 13
+                                columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/ components/Home/choose.tsx",
                             lineNumber: 21,
-                            columnNumber: 11
+                            columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "mt-4",
@@ -744,19 +743,19 @@ function ChooseUs() {
                                 className: "w-full h-auto"
                             }, void 0, false, {
                                 fileName: "[project]/src/ components/Home/choose.tsx",
-                                lineNumber: 33,
-                                columnNumber: 13
+                                lineNumber: 49,
+                                columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/ components/Home/choose.tsx",
-                            lineNumber: 32,
-                            columnNumber: 11
+                            lineNumber: 48,
+                            columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/ components/Home/choose.tsx",
                     lineNumber: 12,
-                    columnNumber: 9
+                    columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "hidden md:flex",
@@ -766,19 +765,19 @@ function ChooseUs() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     className: "text-3xl font-bold mb-3",
-                                    children: "At Ramirez Landscaping"
+                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$constants$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["choose_data"].h1
                                 }, void 0, false, {
                                     fileName: "[project]/src/ components/Home/choose.tsx",
-                                    lineNumber: 45,
-                                    columnNumber: 13
+                                    lineNumber: 61,
+                                    columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "mb-8 text-lg",
-                                    children: "we take pride in delivering top-quality landscaping services tailored to your needs. Our expert team ensures your outdoor space remains lush, vibrant, and well-maintained throughout the year."
+                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$constants$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["choose_data"].desc
                                 }, void 0, false, {
                                     fileName: "[project]/src/ components/Home/choose.tsx",
-                                    lineNumber: 46,
-                                    columnNumber: 13
+                                    lineNumber: 62,
+                                    columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Accordion"], {
                                     type: "single",
@@ -793,33 +792,33 @@ function ChooseUs() {
                                                     children: item.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/ components/Home/choose.tsx",
-                                                    lineNumber: 54,
-                                                    columnNumber: 19
+                                                    lineNumber: 69,
+                                                    columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionContent"], {
                                                     className: "text-white/90",
                                                     children: item.content
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/ components/Home/choose.tsx",
-                                                    lineNumber: 55,
-                                                    columnNumber: 19
+                                                    lineNumber: 70,
+                                                    columnNumber: 37
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/src/ components/Home/choose.tsx",
-                                            lineNumber: 53,
-                                            columnNumber: 17
+                                            lineNumber: 68,
+                                            columnNumber: 33
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/ components/Home/choose.tsx",
-                                    lineNumber: 51,
-                                    columnNumber: 13
+                                    lineNumber: 66,
+                                    columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/ components/Home/choose.tsx",
-                            lineNumber: 44,
-                            columnNumber: 11
+                            lineNumber: 60,
+                            columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "w-1/2 relative overflow-visible",
@@ -834,35 +833,35 @@ function ChooseUs() {
                                     priority: true
                                 }, void 0, false, {
                                     fileName: "[project]/src/ components/Home/choose.tsx",
-                                    lineNumber: 63,
-                                    columnNumber: 15
+                                    lineNumber: 78,
+                                    columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/ components/Home/choose.tsx",
-                                lineNumber: 62,
-                                columnNumber: 13
+                                lineNumber: 77,
+                                columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/ components/Home/choose.tsx",
-                            lineNumber: 61,
-                            columnNumber: 11
+                            lineNumber: 76,
+                            columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/ components/Home/choose.tsx",
-                    lineNumber: 43,
-                    columnNumber: 9
+                    lineNumber: 59,
+                    columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/ components/Home/choose.tsx",
             lineNumber: 10,
-            columnNumber: 7
+            columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/ components/Home/choose.tsx",
         lineNumber: 9,
-        columnNumber: 5
+        columnNumber: 9
     }, this);
 }
 _c = ChooseUs;
@@ -891,7 +890,7 @@ function Input({ type, name, placeholder, value, onChange, extra_class }) {
             value: value,
             onChange: onChange,
             required: true,
-            className: `w-full p-4 border placeholder:text-black border-neonGreen rounded-sm focus:outline-none focus:ring-1 focus:ring-neonGreen ${extra_class}  `
+            className: `w-full p-4 border-2 placeholder:text-black border-neonGreen  rounded-sm focus:outline-none focus:ring-1 focus:ring-neonGreen ${extra_class}  `
         }, void 0, false, {
             fileName: "[project]/src/ components/Home/Input.tsx",
             lineNumber: 6,
@@ -1044,7 +1043,7 @@ function ContactForm() {
                                             value: formData.message,
                                             onChange: handleChange,
                                             rows: 4,
-                                            className: "w-full p-4 border border-neonGreen rounded-sm focus:outline-none focus:ring-1 focus:ring-neonGreen resize-none placeholder:text-black"
+                                            className: "w-full p-4 border-2 border-neonGreen rounded-sm focus:outline-none focus:ring-1 focus:ring-neonGreen resize-none placeholder:text-black"
                                         }, void 0, false, {
                                             fileName: "[project]/src/ components/Home/Contact.tsx",
                                             lineNumber: 62,
@@ -1130,34 +1129,31 @@ var _s = __turbopack_refresh__.signature();
 ;
 function ServiceCards() {
     _s();
-    const [mobileActiveIndex, setMobileActiveIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
+    const [mobileActiveIndex, setMobileActiveIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(2); // Start at 3rd card (index 2)
     const scrollContainerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
-    // Track scroll position on mobile
+    const hasScrolledToInitial = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(false); // Prevents resetting on updates
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "ServiceCards.useEffect": ()=>{
             const scrollContainer = scrollContainerRef.current;
-            if (!scrollContainer) return;
+            if (!scrollContainer || hasScrolledToInitial.current) return;
+            const cardWidth = 280 + 16; // card width + gap
+            scrollContainer.scrollLeft = 2 * cardWidth; // Move to 3rd card
+            hasScrolledToInitial.current = true; // Prevent future resets
             const handleScroll = {
                 "ServiceCards.useEffect.handleScroll": ()=>{
-                    const containerWidth = scrollContainer.clientWidth;
                     const scrollPosition = scrollContainer.scrollLeft;
-                    const cardWidth = 280 + 16 // card width + gap
-                    ;
-                    // Calculate which card is most visible
                     const newActiveIndex = Math.round(scrollPosition / cardWidth);
                     if (newActiveIndex !== mobileActiveIndex) {
                         setMobileActiveIndex(newActiveIndex);
                     }
                 }
             }["ServiceCards.useEffect.handleScroll"];
-            scrollContainer.addEventListener('scroll', handleScroll);
+            scrollContainer.addEventListener("scroll", handleScroll);
             return ({
-                "ServiceCards.useEffect": ()=>scrollContainer.removeEventListener('scroll', handleScroll)
+                "ServiceCards.useEffect": ()=>scrollContainer.removeEventListener("scroll", handleScroll)
             })["ServiceCards.useEffect"];
         }
-    }["ServiceCards.useEffect"], [
-        mobileActiveIndex
-    ]);
+    }["ServiceCards.useEffect"], []); // Runs only on mount
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "py-16 px-4 bg-lightGreen",
         children: [
@@ -1180,44 +1176,44 @@ function ServiceCards() {
                                                 className: `object-contain group-hover:filter group-hover:brightness-0 group-hover:invert`
                                             }, void 0, false, {
                                                 fileName: "[project]/src/ components/Home/services.tsx",
-                                                lineNumber: 46,
-                                                columnNumber: 29
+                                                lineNumber: 48,
+                                                columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/ components/Home/services.tsx",
-                                            lineNumber: 45,
-                                            columnNumber: 27
+                                            lineNumber: 47,
+                                            columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/ components/Home/services.tsx",
-                                        lineNumber: 44,
-                                        columnNumber: 25
+                                        lineNumber: 46,
+                                        columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "text-xl group-hover:text-white font-semibold mb-3",
                                         children: service.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/ components/Home/services.tsx",
-                                        lineNumber: 54,
-                                        columnNumber: 25
+                                        lineNumber: 56,
+                                        columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "group-hover:text-white text-neutral-600",
                                         children: service.description
                                     }, void 0, false, {
                                         fileName: "[project]/src/ components/Home/services.tsx",
-                                        lineNumber: 55,
-                                        columnNumber: 25
+                                        lineNumber: 57,
+                                        columnNumber: 29
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/src/ components/Home/services.tsx",
-                                lineNumber: 40,
+                                lineNumber: 42,
                                 columnNumber: 25
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/ components/Home/services.tsx",
-                        lineNumber: 38,
+                        lineNumber: 40,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1241,17 +1237,17 @@ function ServiceCards() {
                                                 className: `object-contain ${index === mobileActiveIndex ? "filter brightness-0 invert" : ""}`
                                             }, void 0, false, {
                                                 fileName: "[project]/src/ components/Home/services.tsx",
-                                                lineNumber: 74,
+                                                lineNumber: 76,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/ components/Home/services.tsx",
-                                            lineNumber: 73,
+                                            lineNumber: 75,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/ components/Home/services.tsx",
-                                        lineNumber: 72,
+                                        lineNumber: 74,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1259,7 +1255,7 @@ function ServiceCards() {
                                         children: service.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/ components/Home/services.tsx",
-                                        lineNumber: 82,
+                                        lineNumber: 84,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1267,18 +1263,18 @@ function ServiceCards() {
                                         children: service.description
                                     }, void 0, false, {
                                         fileName: "[project]/src/ components/Home/services.tsx",
-                                        lineNumber: 83,
+                                        lineNumber: 85,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/src/ components/Home/services.tsx",
-                                lineNumber: 67,
+                                lineNumber: 69,
                                 columnNumber: 25
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/ components/Home/services.tsx",
-                        lineNumber: 61,
+                        lineNumber: 63,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1298,18 +1294,18 @@ function ServiceCards() {
                                 }
                             }, index, false, {
                                 fileName: "[project]/src/ components/Home/services.tsx",
-                                lineNumber: 93,
+                                lineNumber: 95,
                                 columnNumber: 25
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/ components/Home/services.tsx",
-                        lineNumber: 91,
+                        lineNumber: 93,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/ components/Home/services.tsx",
-                lineNumber: 35,
+                lineNumber: 37,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1319,22 +1315,22 @@ function ServiceCards() {
                     hover: false
                 }, void 0, false, {
                     fileName: "[project]/src/ components/Home/services.tsx",
-                    lineNumber: 113,
+                    lineNumber: 115,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/ components/Home/services.tsx",
-                lineNumber: 111,
+                lineNumber: 113,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/ components/Home/services.tsx",
-        lineNumber: 34,
+        lineNumber: 36,
         columnNumber: 9
     }, this);
 }
-_s(ServiceCards, "2/pdkeGn2WpSyKn/4z6HFr3AZuY=");
+_s(ServiceCards, "nT+gZRsm/QTM1DrEnwaP9E42xPc=");
 _c = ServiceCards;
 var _c;
 __turbopack_refresh__.register(_c, "ServiceCards");

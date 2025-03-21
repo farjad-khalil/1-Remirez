@@ -9,6 +9,7 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 // About US Page
 __turbopack_esm__({
     "accordion_data": (()=>accordion_data),
+    "choose_data": (()=>choose_data),
     "contact_data": (()=>contact_data),
     "footer_contact": (()=>footer_contact),
     "footer_text": (()=>footer_text),
@@ -524,6 +525,10 @@ const contact_data = {
     h1: "Want a Free Estimate?",
     desc: "We're here to bring your outdoor vision to life! Whether you need landscape design, tree trimming, sod installation, or seasonal cleanup, our expert team is ready to assist."
 };
+const choose_data = {
+    h1: "At Ramirez Landscaping",
+    desc: "we take pride in delivering top-quality landscaping services tailored to your needs. Our expert team ensures your outdoor space remains lush, vibrant, and well-maintained throughout the year."
+};
 }}),
 "[project]/src/ components/aboutus/ourstory.jsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
@@ -703,7 +708,7 @@ function DividerCenter({ t1, t2 }) {
 }
 function DividerLeft({ t1, t2 }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "flex items-center w-full bg-white pt-12 pb-8 md:pb-16 md:px-8",
+        className: "flex items-center w-full bg-white pt-12 px-5 pb-8 md:pb-16 md:px-8",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                 className: "px-4 md:text-4xl text-lg font-semibold",

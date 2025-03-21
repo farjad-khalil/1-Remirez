@@ -102,7 +102,7 @@ function DividerCenter({ t1, t2 }) {
 }
 function DividerLeft({ t1, t2 }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "flex items-center w-full bg-white pt-12 pb-8 md:pb-16 md:px-8",
+        className: "flex items-center w-full bg-white pt-12 px-5 pb-8 md:pb-16 md:px-8",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                 className: "px-4 md:text-4xl text-lg font-semibold",
@@ -268,6 +268,7 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 // About US Page
 __turbopack_esm__({
     "accordion_data": (()=>accordion_data),
+    "choose_data": (()=>choose_data),
     "contact_data": (()=>contact_data),
     "footer_contact": (()=>footer_contact),
     "footer_text": (()=>footer_text),
@@ -783,6 +784,10 @@ const contact_data = {
     h1: "Want a Free Estimate?",
     desc: "We're here to bring your outdoor vision to life! Whether you need landscape design, tree trimming, sod installation, or seasonal cleanup, our expert team is ready to assist."
 };
+const choose_data = {
+    h1: "At Ramirez Landscaping",
+    desc: "we take pride in delivering top-quality landscaping services tailored to your needs. Our expert team ensures your outdoor space remains lush, vibrant, and well-maintained throughout the year."
+};
 }}),
 "[project]/src/ components/Button/button.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
@@ -1045,10 +1050,10 @@ function Offer() {
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "grid grid-cols-1 sm:grid-cols-2 gap-12",
                     children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$constants$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["offer_data"].map((service, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "bg-neutral-100 overflow-hidden rounded-sm pb-2",
+                            className: "bg-neutral-100 overflow-hidden rounded-sm pb-2 ",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "h-48 overflow-hidden",
+                                    className: "h-56 overflow-hidden",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         src: service.image || "/placeholder.svg",
                                         alt: service.title,
@@ -1066,22 +1071,27 @@ function Offer() {
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "p-4",
+                                    className: "p-4 max-md:py-14",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-xl font-bold text-neonGreen mb-2",
+                                            className: "text-xl max-md:text-3xl font-bold text-neonGreen mb-2",
                                             children: service.title
                                         }, void 0, false, {
                                             fileName: "[project]/src/ components/Home/offer.tsx",
                                             lineNumber: 45,
                                             columnNumber: 17
                                         }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                            fileName: "[project]/src/ components/Home/offer.tsx",
+                                            lineNumber: 46,
+                                            columnNumber: 17
+                                        }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-gray-700 max-md:text-lg font-medium",
+                                            className: "text-gray-700 max-md:text-2xl font-medium",
                                             children: service.description
                                         }, void 0, false, {
                                             fileName: "[project]/src/ components/Home/offer.tsx",
-                                            lineNumber: 46,
+                                            lineNumber: 47,
                                             columnNumber: 17
                                         }, this)
                                     ]

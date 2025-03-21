@@ -14,7 +14,7 @@ export function DividerCenter({ t1, t2 }:any) {
 }
 export function DividerLeft({t1,t2}:any) {
     return (
-        <div className="flex items-center w-full bg-white pt-12 pb-8 md:pb-16 md:px-8">
+        <div className="flex items-center w-full bg-white pt-12 px-5 pb-8 md:pb-16 md:px-8">
             <h2 className="px-4 md:text-4xl text-lg font-semibold">
                 <span className="text-black montserrat-regular">{t1}</span>{" "}
                 <span className="text-[#65991d]">{t2}</span>

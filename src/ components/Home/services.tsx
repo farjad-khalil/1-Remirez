@@ -6,29 +6,31 @@ import { services_data } from "@/constants/constants"
 import { ButtonGreen } from "../Button/button"
 
 export default function ServiceCards() {
-    const [mobileActiveIndex, setMobileActiveIndex] = useState(0)
-    const scrollContainerRef = useRef<HTMLDivElement>(null)
+    const [mobileActiveIndex, setMobileActiveIndex] = useState(2); // Start at 3rd card (index 2)
+    const scrollContainerRef = useRef<HTMLDivElement>(null);
+    const hasScrolledToInitial = useRef(false); // Prevents resetting on updates
 
-    // Track scroll position on mobile
     useEffect(() => {
-        const scrollContainer = scrollContainerRef.current
-        if (!scrollContainer) return
+        const scrollContainer = scrollContainerRef.current;
+        if (!scrollContainer || hasScrolledToInitial.current) return;
+
+        const cardWidth = 280 + 16; // card width + gap
+        scrollContainer.scrollLeft = 2 * cardWidth; // Move to 3rd card
+
+        hasScrolledToInitial.current = true; // Prevent future resets
 
         const handleScroll = () => {
-            const containerWidth = scrollContainer.clientWidth
-            const scrollPosition = scrollContainer.scrollLeft
-            const cardWidth = 280 + 16 // card width + gap
-
-            // Calculate which card is most visible
-            const newActiveIndex = Math.round(scrollPosition / cardWidth)
+            const scrollPosition = scrollContainer.scrollLeft;
+            const newActiveIndex = Math.round(scrollPosition / cardWidth);
             if (newActiveIndex !== mobileActiveIndex) {
-                setMobileActiveIndex(newActiveIndex)
+                setMobileActiveIndex(newActiveIndex);
             }
-        }
+        };
 
-        scrollContainer.addEventListener('scroll', handleScroll)
-        return () => scrollContainer.removeEventListener('scroll', handleScroll)
-    }, [mobileActiveIndex])
+        scrollContainer.addEventListener("scroll", handleScroll);
+        return () => scrollContainer.removeEventListener("scroll", handleScroll);
+    }, []); // Runs only on mount
+
 
     return (
         <section className="py-16 px-4 bg-lightGreen">
@@ -38,22 +40,22 @@ export default function ServiceCards() {
                 <div className="hidden md:grid grid-cols-3 gap-14">
                     {services_data.map((service, index) => (
                         <div
-                        key={index}
-                        className={`p-8 py-16 rounded-sm shadow-md transition-all duration-500 text-center cursor-pointer hover:bg-neonGreen group bg-white text-black`}
-                      >
-                        <div className="flex justify-center mb-4">
-                          <div className="relative w-16 h-16">
-                            <Image
-                              src={service.iconSrc || "/placeholder.svg"}
-                              alt={service.title}
-                              fill
-                              className={`object-contain group-hover:filter group-hover:brightness-0 group-hover:invert`}
-                            />
-                          </div>
+                            key={index}
+                            className={`p-8 py-16 rounded-sm shadow-md transition-all duration-500 text-center cursor-pointer hover:bg-neonGreen group bg-white text-black`}
+                        >
+                            <div className="flex justify-center mb-4">
+                                <div className="relative w-16 h-16">
+                                    <Image
+                                        src={service.iconSrc || "/placeholder.svg"}
+                                        alt={service.title}
+                                        fill
+                                        className={`object-contain group-hover:filter group-hover:brightness-0 group-hover:invert`}
+                                    />
+                                </div>
+                            </div>
+                            <h3 className="text-xl group-hover:text-white font-semibold mb-3">{service.title}</h3>
+                            <p className="group-hover:text-white text-neutral-600">{service.description}</p>
                         </div>
-                        <h3 className="text-xl group-hover:text-white font-semibold mb-3">{service.title}</h3>
-                        <p className="group-hover:text-white text-neutral-600">{service.description}</p>
-                      </div>
                     ))}
                 </div>
 

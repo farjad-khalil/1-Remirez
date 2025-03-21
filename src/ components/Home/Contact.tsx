@@ -65,7 +65,7 @@ export default function ContactForm() {
                                     value={formData.message}
                                     onChange={handleChange}
                                     rows={4}
-                                    className="w-full p-4 border border-neonGreen rounded-sm focus:outline-none focus:ring-1 focus:ring-neonGreen resize-none placeholder:text-black"
+                                    className="w-full p-4 border-2 border-neonGreen rounded-sm focus:outline-none focus:ring-1 focus:ring-neonGreen resize-none placeholder:text-black"
                                 />
                             </div>
 

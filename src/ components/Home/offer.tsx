@@ -31,8 +31,8 @@ export default function Offer() {
         {/* Right Column - Services Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
           {offer_data.map((service, index) => (
-            <div key={index} className="bg-neutral-100 overflow-hidden rounded-sm pb-2">
-              <div className="h-48 overflow-hidden">
+            <div key={index} className="bg-neutral-100 overflow-hidden rounded-sm pb-2 ">
+              <div className="h-56 overflow-hidden">
                 <Image
                   src={service.image || "/placeholder.svg"}
                   alt={service.title}
@@ -41,9 +41,10 @@ export default function Offer() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="p-4">
-                <h3 className="text-xl font-bold text-neonGreen mb-2">{service.title}</h3>
-                <p className="text-gray-700 max-md:text-lg font-medium">{service.description}</p>
+              <div className="p-4 max-md:py-14">
+                <h3 className="text-xl max-md:text-3xl font-bold text-neonGreen mb-2">{service.title}</h3>
+                <br/>
+                <p className="text-gray-700 max-md:text-2xl font-medium">{service.description}</p>
               </div>
             </div>
           ))}
