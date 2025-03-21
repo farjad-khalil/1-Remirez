@@ -1,6 +1,7 @@
 import { ButtonGreen, ButtonGreenBright, ButtonWhite } from '@/ components/Button/button';
 import { DividerCenter, DividerLeft } from '@/ components/Divider/divider';
 import Hero from '@/ components/HeroSection/hero';
+import ChooseUs from '@/ components/Home/choose';
 import Info from '@/ components/Home/info';
 import Offer from '@/ components/Home/offer';
 import ServiceCards from '@/ components/Home/services';
@@ -22,6 +23,9 @@ export default function Home() {
 
         <DividerCenter t1="Our" t2="Services" />
         <ServiceCards />
+
+        <DividerLeft t1="Why" t2="Choose Us" />
+        <ChooseUs />
       </main>
     </div>
   );

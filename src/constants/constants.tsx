@@ -276,3 +276,31 @@ export const services_data = [
       iconSrc: "/assets/home/6.svg",
     },
   ]
+
+ export const accordion_data = [
+    {
+      title: "Expertise & Experience",
+      content:
+        "Our skilled landscapers bring years of experience in garden design, tree trimming, sod installation, and lawn maintenance.",
+      defaultOpen: true,
+    },
+    {
+      title: "Premium Quality",
+      content:
+        "We use only the highest quality materials and plants to ensure your landscape looks beautiful and lasts for years to come.",
+    },
+    {
+      title: "Seasonal Care",
+      content: "Our services adapt to the changing seasons, providing specialized care for your landscape year-round.",
+    },
+    {
+      title: "Hassle-Free Service",
+      content:
+        "We handle everything from initial design to ongoing maintenance, making the process simple and stress-free for you.",
+    },
+    {
+      title: "Customer Satisfaction",
+      content:
+        "Your satisfaction is our priority. We work closely with you to ensure the final result exceeds your expectations.",
+    },
+  ]

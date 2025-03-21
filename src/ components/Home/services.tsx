@@ -39,7 +39,7 @@ export default function ServiceCards() {
                     {services_data.map((service, index) => (
                         <div
                         key={index}
-                        className={`p-8 py-16 rounded-sm shadow-md transition-all duration-400 text-center cursor-pointer hover:bg-neonGreen group bg-white text-black`}
+                        className={`p-8 py-16 rounded-sm shadow-md transition-all duration-500 text-center cursor-pointer hover:bg-neonGreen group bg-white text-black`}
                       >
                         <div className="flex justify-center mb-4">
                           <div className="relative w-16 h-16">

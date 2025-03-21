@@ -472,6 +472,7 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 // Data
 // About US Page
 __turbopack_esm__({
+    "accordion_data": (()=>accordion_data),
     "footer_contact": (()=>footer_contact),
     "footer_text": (()=>footer_text),
     "galleryImages": (()=>galleryImages),
@@ -957,6 +958,29 @@ const services_data = [
         title: "Lawn & Garden Maintenance",
         description: "Regular care, trimming, and upkeep for a well-maintained outdoor space.",
         iconSrc: "/assets/home/6.svg"
+    }
+];
+const accordion_data = [
+    {
+        title: "Expertise & Experience",
+        content: "Our skilled landscapers bring years of experience in garden design, tree trimming, sod installation, and lawn maintenance.",
+        defaultOpen: true
+    },
+    {
+        title: "Premium Quality",
+        content: "We use only the highest quality materials and plants to ensure your landscape looks beautiful and lasts for years to come."
+    },
+    {
+        title: "Seasonal Care",
+        content: "Our services adapt to the changing seasons, providing specialized care for your landscape year-round."
+    },
+    {
+        title: "Hassle-Free Service",
+        content: "We handle everything from initial design to ongoing maintenance, making the process simple and stress-free for you."
+    },
+    {
+        title: "Customer Satisfaction",
+        content: "Your satisfaction is our priority. We work closely with you to ensure the final result exceeds your expectations."
     }
 ];
 }}),

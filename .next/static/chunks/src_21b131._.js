@@ -249,7 +249,7 @@ function ServiceCards() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "hidden md:grid grid-cols-3 gap-14",
                         children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$constants$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["services_data"].map((service, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: `p-8 py-16 rounded-sm shadow-md transition-all duration-400 text-center cursor-pointer hover:bg-neonGreen group bg-white text-black`,
+                                className: `p-8 py-16 rounded-sm shadow-md transition-all duration-500 text-center cursor-pointer hover:bg-neonGreen group bg-white text-black`,
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex justify-center mb-4",
