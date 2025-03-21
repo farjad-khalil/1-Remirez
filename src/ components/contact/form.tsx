@@ -35,16 +35,16 @@ const ContactForm = () => {
                     <input
                         type="email"
                         placeholder="Email Address"
-                        className="w-full p-3 border border-gray-300 placeholder:text-black rounded-sm text-black focus:outline-none"
+                        className="w-full p-3 px-6 border border-gray-300 placeholder:text-black rounded-sm text-black focus:outline-none"
                     />
                     <input
                         type="tel"
                         placeholder="Phone Number"
-                        className="w-full p-3 border border-gray-300 placeholder:text-black rounded-sm text-black focus:outline-none"
+                        className="w-full p-3 px-6 border border-gray-300 placeholder:text-black rounded-sm text-black focus:outline-none"
                     />
                     <textarea
                         placeholder="Enter Message"
-                        className="w-full p-3 border border-gray-300 placeholder:text-black rounded-sm text-black focus:outline-none"
+                        className="w-full p-3 px-6 border border-gray-300 placeholder:text-black rounded-sm text-black focus:outline-none"
                         rows={4}
                     ></textarea>
 
