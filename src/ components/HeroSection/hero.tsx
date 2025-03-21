@@ -18,14 +18,14 @@ export default function Hero({ t1, t2, description, src, extra_class }: any) {
             />
 
             {/* Overlay Text */}
-            <div className="absolute md:px-44 inset-0 flex items-center justify-center text-white font-bold bg-black bg-opacity-10 text-center">
+            <div className="absolute md:px-44  inset-0 flex items-center justify-center text-white font-bold bg-black bg-opacity-10 text-center">
                 <div>
-                    <h1 className="text-4xl md:text-7xl font-bold mb-6">
+                    <h1 className="text-4xl md:text-7xl font-bold mb-6 px-10">
                         {t1} <span className="text-[#94f312]">{t2}</span>
                     </h1>
                     {description}
                     {pathname === '/' ?
-                        <div className="py-20 flex gap-10 justify-center">
+                        <div className="py-20 flex gap-10 justify-center max-md:flex-col items-center">
                             <ButtonWhite text="Get a Free Quote" />
                             <ButtonGreenBright text="Call Now" />
                         </div>

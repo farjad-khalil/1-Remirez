@@ -1,7 +1,9 @@
 import { ButtonGreen, ButtonGreenBright, ButtonWhite } from '@/ components/Button/button';
-import { DividerLeft } from '@/ components/Divider/divider';
+import { DividerCenter, DividerLeft } from '@/ components/Divider/divider';
 import Hero from '@/ components/HeroSection/hero';
 import Info from '@/ components/Home/info';
+import Offer from '@/ components/Home/offer';
+import ServiceCards from '@/ components/Home/services';
 import { hero_data_home } from '@/constants/constants';
 import Image from 'next/image';
 
@@ -15,6 +17,11 @@ export default function Home() {
         <DividerLeft t1="Who" t2="We Are" />
         <Info />
         
+        <DividerLeft t1="What" t2="We Offer" />
+        <Offer />
+
+        <DividerCenter t1="Our" t2="Services" />
+        <ServiceCards />
       </main>
     </div>
   );

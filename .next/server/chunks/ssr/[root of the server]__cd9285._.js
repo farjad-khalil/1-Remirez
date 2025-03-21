@@ -294,8 +294,11 @@ __turbopack_esm__({
     "hero_data_home": (()=>hero_data_home),
     "hero_data_services": (()=>hero_data_services),
     "home_info": (()=>home_info),
+    "offer_data": (()=>offer_data),
     "our_story_text": (()=>our_story_text),
     "sections": (()=>sections),
+    "services_data": (()=>services_data),
+    "services_heading": (()=>services_heading),
     "testimonialsData": (()=>testimonialsData)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
@@ -711,6 +714,64 @@ const home_info = {
         columnNumber: 18
     }, this)
 };
+const offer_data = [
+    {
+        title: "Landscaping Design",
+        description: "Creating beautiful and functional outdoor spaces tailored to your property.",
+        image: "/assets/home/1.png"
+    },
+    {
+        title: "Planting Services",
+        description: "Expert selection and installation of trees, shrubs, and flowers to enhance your landscape.",
+        image: "/assets/home/2.png"
+    },
+    {
+        title: "Scheduled Services",
+        description: "Regular maintenance plans to keep your property looking its best year-round.",
+        image: "/assets/home/3.png"
+    },
+    {
+        title: "Tree Care & Removal",
+        description: "Professional tree trimming, pruning, and safe removal for a healthy landscape.",
+        image: "/assets/home/4.png"
+    }
+];
+const services_heading = {
+    h1: "Best and safest Tree Removal & Landscaping on Long Island!",
+    desc: " We offer the best and safe Tree Removal and Landscaping care on Long Island!"
+};
+const services_data = [
+    {
+        title: "Landscape Design & Installation",
+        description: "Designing and installing beautiful seasonal landscapes for home gardens.",
+        iconSrc: "/assets/home/1.svg"
+    },
+    {
+        title: "Tree, Shrub & Turf Trimming",
+        description: "Professional trimming and pruning to maintain the health and appearance of greenery.",
+        iconSrc: "/assets/home/2.svg"
+    },
+    {
+        title: "Sod Lawn Planting",
+        description: "Installing fresh, premium sod to replace or expand lawn areas.",
+        iconSrc: "/assets/home/3.svg"
+    },
+    {
+        title: "Seasonal Garden Enhancement",
+        description: "Updating gardens with the best flowers and greenery for each season.",
+        iconSrc: "/assets/home/4.svg"
+    },
+    {
+        title: "Fall Leaves Cleanup",
+        description: "Clearing fallen leaves to keep lawns clean and vibrant.",
+        iconSrc: "/assets/home/5.svg"
+    },
+    {
+        title: "Lawn & Garden Maintenance",
+        description: "Regular care, trimming, and upkeep for a well-maintained outdoor space.",
+        iconSrc: "/assets/home/6.svg"
+    }
+];
 }}),
 "[project]/src/ components/Navbar/footer.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";

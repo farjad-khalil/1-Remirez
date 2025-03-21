@@ -6,7 +6,7 @@ import { ButtonGreen } from '../Button/button'
 export default function Info() {
     return (
         <div>
-            <section className="bg-white pb-10 mx-14">
+            <section className="bg-white pb-10 mx-8 md:mx-14">
                 <div className=" ">
                     <div className="grid md:grid-cols-12 ">
                         <div className='col-span-7'>
@@ -18,15 +18,15 @@ export default function Info() {
                                 className="w-full h-full object-cover"
                             />
                         </div>
-                        <div className="bg-[#65991d] text-white py-10 px-10 md:px-10 col-span-5 ">
+                        <div className="bg-[#65991d] text-white py-4 px-4 md:py-10 md:px-10 col-span-5 ">
 
                             <div className="mb-4">
 
                                 <div className="">
-                                    <span className="md:text-4xl text-lg font-bold text-white mb-4">{home_info.heading}</span>
-                                    <span className='md:text-lg  text-lg montserrat-light  text-white '>{home_info.description}</span>
-                                    <div className='mt-10'>
-                                        <ButtonGreen text="Read More" />
+                                    <span className="md:text-4xl text-2xl font-bold text-white mb-4">{home_info.heading}<br/></span>
+                                    <span className='md:text-lg  text-sm montserrat-light  text-white '>{home_info.description}</span>
+                                    <div className='mt-10 max-md:flex max-md:justify-center'>
+                                        <ButtonGreen text="Read More" hover={false} />
                                     </div>
                                 </div>
                             </div>

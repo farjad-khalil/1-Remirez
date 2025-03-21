@@ -217,3 +217,62 @@ export const home_info = {
         For over <strong className="font-semibold text-black">20</strong> years, we’ve grown solely through word of mouth and the heartfelt testimonials of our valued customers. Your trust and support have been the foundation of our success, and we couldn’t be more grateful.<br/><br/> We take pride in offering exceptional attention to detail, ensuring  <strong className="font-semibold text-black">100%</strong> customer satisfaction with every experience. Our loyal patrons are at the heart of everything we do, and we are honored to serve the Long Island community. Thank you for your continued support!"
     </div>
 }
+
+export const offer_data = [
+    {
+      title: "Landscaping Design",
+      description: "Creating beautiful and functional outdoor spaces tailored to your property.",
+      image: "/assets/home/1.png",
+    },
+    {
+      title: "Planting Services",
+      description: "Expert selection and installation of trees, shrubs, and flowers to enhance your landscape.",
+      image: "/assets/home/2.png",
+    },
+    {
+      title: "Scheduled Services",
+      description: "Regular maintenance plans to keep your property looking its best year-round.",
+      image: "/assets/home/3.png",
+    },
+    {
+      title: "Tree Care & Removal",
+      description: "Professional tree trimming, pruning, and safe removal for a healthy landscape.",
+      image: "/assets/home/4.png",
+    },
+  ]
+export const services_heading = {
+    h1:"Best and safest Tree Removal & Landscaping on Long Island!",
+    desc:" We offer the best and safe Tree Removal and Landscaping care on Long Island!"
+}
+export const services_data = [
+    {
+      title: "Landscape Design & Installation",
+      description: "Designing and installing beautiful seasonal landscapes for home gardens.",
+      iconSrc: "/assets/home/1.svg",
+    },
+    {
+      title: "Tree, Shrub & Turf Trimming",
+      description: "Professional trimming and pruning to maintain the health and appearance of greenery.",
+      iconSrc: "/assets/home/2.svg",
+    },
+    {
+      title: "Sod Lawn Planting",
+      description: "Installing fresh, premium sod to replace or expand lawn areas.",
+      iconSrc: "/assets/home/3.svg",
+    },
+    {
+      title: "Seasonal Garden Enhancement",
+      description: "Updating gardens with the best flowers and greenery for each season.",
+      iconSrc: "/assets/home/4.svg",
+    },
+    {
+      title: "Fall Leaves Cleanup",
+      description: "Clearing fallen leaves to keep lawns clean and vibrant.",
+      iconSrc: "/assets/home/5.svg",
+    },
+    {
+      title: "Lawn & Garden Maintenance",
+      description: "Regular care, trimming, and upkeep for a well-maintained outdoor space.",
+      iconSrc: "/assets/home/6.svg",
+    },
+  ]

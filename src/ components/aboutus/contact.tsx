@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import  { ButtonGreen, ButtonLight } from '../Button/button'
+import  { ButtonGreen, ButtonGreenBright, ButtonLight, ButtonWhite } from '../Button/button'
 
 export default function Contact() {
     return (
@@ -22,10 +22,10 @@ export default function Contact() {
                     enhancements, we bring beauty and care to every corner of your outdoor environment.
                 </p>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
-                    <ButtonLight text={"Contact Us"} />
+                    <ButtonWhite text={"Contact Us"} />
 
                     {/* Outlined Button - Becomes Filled on Hover */}
-                    <ButtonGreen text={"Call us"} />
+                    <ButtonGreenBright text={"Call us"} />
                 </div>
             </div>
         </section>
