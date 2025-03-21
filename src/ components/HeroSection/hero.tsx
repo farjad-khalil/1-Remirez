@@ -1,10 +1,8 @@
 "use client"
 import Image from "next/image";
 import { ButtonGreenBright, ButtonWhite } from "../Button/button";
-import { usePathname } from "next/navigation";
 
-export default function Hero({ t1, t2, description, src, extra_class }: any) {
-    const pathname = usePathname();
+export default function Hero({ t1, t2, description, src, extra_class, buttons=false,btn_1 , btn_2 }: any) {
 
     return (
         <div className={`relative w-full h-[600px] ${extra_class} `}>
@@ -24,10 +22,10 @@ export default function Hero({ t1, t2, description, src, extra_class }: any) {
                         {t1} <span className="text-[#94f312]">{t2}</span>
                     </h1>
                     {description}
-                    {pathname === '/' ?
+                    {buttons ?
                         <div className="py-20 flex gap-10 justify-center max-md:flex-col items-center">
-                            <ButtonWhite text="Get a Free Quote" />
-                            <ButtonGreenBright text="Call Now" />
+                            <ButtonWhite text={btn_1} />
+                            <ButtonGreenBright text={btn_2} />
                         </div>
                         : <div className="hidden"></div>}
 

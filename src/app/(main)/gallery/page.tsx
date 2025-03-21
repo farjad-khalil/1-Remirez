@@ -10,7 +10,7 @@ const Gallery = () => {
         <div>
             <Hero t1={hero_data_gallery.t1} t2={hero_data_gallery.t2} description={hero_data_gallery.description} src={hero_data_gallery.src} />
             <DividerLeft t1="A Showcase of" t2="Beautiful Landscapes" />
-            <div className="bg-lightGreen md:mx-40 mx-5 grid md:grid-cols-3 gap-10 mb-14">
+            <div className="bg-lightGreen md:mx-40 mx-5 flex flex-col items-center md:grid md:grid-cols-3 gap-10 mb-14">
                 {galleryImages.map((src, index) => (
                     <div key={index}>
                         <Image

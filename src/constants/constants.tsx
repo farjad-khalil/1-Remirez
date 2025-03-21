@@ -114,6 +114,16 @@ export const hero_data_home: any = {
     ),
     src: "/assets/home/hero.png"
 }
+export const hero_data_error: any = {
+    t1: "Oops! ",
+    t2: "Page Not Found",
+    description: (
+        <p className="md:text-2xl md:mx-44 text-lg mx-10">
+            It looks like the page you were looking for doesn’t exist or may have been moved.<span className="text-[#94f312]">Don’t worry, </span>,{" "}we’re here to help you find what you need!
+        </p>
+    ),
+    src: "/assets/error/hero.png"
+}
 
 // Services section
 export const sections = [

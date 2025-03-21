@@ -16,7 +16,7 @@ export default function Home() {
     <div className="">
       <main className="min-h-screen">
 
-        <Hero t1={hero_data_home.t1} t2={hero_data_home.t2} description={hero_data_home.description} src={hero_data_home.src} extra_class="h-[800px]" />
+        <Hero t1={hero_data_home.t1} t2={hero_data_home.t2} description={hero_data_home.description} src={hero_data_home.src} extra_class="h-[800px]" buttons={true} btn_1="Get a Free Quote" btn_2="Call Now" />
         <DividerLeft t1="Who" t2="We Are" />
         <Info />
         

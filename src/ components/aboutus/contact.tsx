@@ -21,7 +21,7 @@ export default function Contact() {
                     Transform your garden and lawn into a vibrant, well-maintained haven. From expert landscaping to seasonal
                     enhancements, we bring beauty and care to every corner of your outdoor environment.
                 </p>
-                <div className="flex flex-col sm:flex-row justify-center gap-4">
+                <div className="flex flex-col sm:flex-row justify-center gap-4 items-center">
                     <ButtonWhite text={"Contact Us"} />
 
                     {/* Outlined Button - Becomes Filled on Hover */}

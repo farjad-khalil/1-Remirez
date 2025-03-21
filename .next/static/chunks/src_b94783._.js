@@ -422,16 +422,11 @@ __turbopack_esm__({
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$Button$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/ components/Button/button.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
-;
-var _s = __turbopack_refresh__.signature();
 "use client";
 ;
 ;
 ;
-function Hero({ t1, t2, description, src, extra_class }) {
-    _s();
-    const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
+function Hero({ t1, t2, description, src, extra_class, buttons = false, btn_1, btn_2 }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: `relative w-full h-[600px] ${extra_class} `,
         children: [
@@ -443,7 +438,7 @@ function Hero({ t1, t2, description, src, extra_class }) {
                 className: "w-full h-full"
             }, void 0, false, {
                 fileName: "[project]/src/ components/HeroSection/hero.tsx",
-                lineNumber: 12,
+                lineNumber: 10,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -460,68 +455,63 @@ function Hero({ t1, t2, description, src, extra_class }) {
                                     children: t2
                                 }, void 0, false, {
                                     fileName: "[project]/src/ components/HeroSection/hero.tsx",
-                                    lineNumber: 24,
+                                    lineNumber: 22,
                                     columnNumber: 30
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/ components/HeroSection/hero.tsx",
-                            lineNumber: 23,
+                            lineNumber: 21,
                             columnNumber: 21
                         }, this),
                         description,
-                        pathname === '/' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        buttons ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "py-20 flex gap-10 justify-center max-md:flex-col items-center",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$Button$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ButtonWhite"], {
-                                    text: "Get a Free Quote"
+                                    text: btn_1
                                 }, void 0, false, {
                                     fileName: "[project]/src/ components/HeroSection/hero.tsx",
-                                    lineNumber: 29,
+                                    lineNumber: 27,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$Button$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ButtonGreenBright"], {
-                                    text: "Call Now"
+                                    text: btn_2
                                 }, void 0, false, {
                                     fileName: "[project]/src/ components/HeroSection/hero.tsx",
-                                    lineNumber: 30,
+                                    lineNumber: 28,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/ components/HeroSection/hero.tsx",
-                            lineNumber: 28,
+                            lineNumber: 26,
                             columnNumber: 25
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "hidden"
                         }, void 0, false, {
                             fileName: "[project]/src/ components/HeroSection/hero.tsx",
-                            lineNumber: 32,
+                            lineNumber: 30,
                             columnNumber: 27
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/ components/HeroSection/hero.tsx",
-                    lineNumber: 22,
+                    lineNumber: 20,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/ components/HeroSection/hero.tsx",
-                lineNumber: 21,
+                lineNumber: 19,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/ components/HeroSection/hero.tsx",
-        lineNumber: 10,
+        lineNumber: 8,
         columnNumber: 9
     }, this);
 }
-_s(Hero, "xbyQPtUVMO7MNj7WjJlpdWqRcTo=", false, function() {
-    return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"]
-    ];
-});
 _c = Hero;
 var _c;
 __turbopack_refresh__.register(_c, "Hero");
@@ -922,9 +912,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$constants$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/constants/constants.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$Home$2f$Input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/ components/Home/Input.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$Button$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/ components/Button/button.tsx [app-client] (ecmascript)");
 ;
 var _s = __turbopack_refresh__.signature();
 "use client";
+;
 ;
 ;
 ;
@@ -967,17 +959,17 @@ function ContactForm() {
                                 className: "h-full object-contain md:scale-110"
                             }, void 0, false, {
                                 fileName: "[project]/src/ components/Home/Contact.tsx",
-                                lineNumber: 36,
+                                lineNumber: 37,
                                 columnNumber: 29
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/ components/Home/Contact.tsx",
-                            lineNumber: 35,
+                            lineNumber: 36,
                             columnNumber: 25
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/ components/Home/Contact.tsx",
-                        lineNumber: 34,
+                        lineNumber: 35,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -988,7 +980,7 @@ function ContactForm() {
                                 children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$constants$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["contact_data"].h1
                             }, void 0, false, {
                                 fileName: "[project]/src/ components/Home/Contact.tsx",
-                                lineNumber: 49,
+                                lineNumber: 50,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -996,7 +988,7 @@ function ContactForm() {
                                 children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$constants$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["contact_data"].desc
                             }, void 0, false, {
                                 fileName: "[project]/src/ components/Home/Contact.tsx",
-                                lineNumber: 50,
+                                lineNumber: 51,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -1011,7 +1003,7 @@ function ContactForm() {
                                         onChange: handleChange
                                     }, void 0, false, {
                                         fileName: "[project]/src/ components/Home/Contact.tsx",
-                                        lineNumber: 53,
+                                        lineNumber: 54,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$Home$2f$Input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1022,7 +1014,7 @@ function ContactForm() {
                                         onChange: handleChange
                                     }, void 0, false, {
                                         fileName: "[project]/src/ components/Home/Contact.tsx",
-                                        lineNumber: 56,
+                                        lineNumber: 57,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$Home$2f$Input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1033,7 +1025,7 @@ function ContactForm() {
                                         onChange: handleChange
                                     }, void 0, false, {
                                         fileName: "[project]/src/ components/Home/Contact.tsx",
-                                        lineNumber: 59,
+                                        lineNumber: 60,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1046,56 +1038,54 @@ function ContactForm() {
                                             className: "w-full p-4 border-2 border-neonGreen rounded-sm focus:outline-none focus:ring-1 focus:ring-neonGreen resize-none placeholder:text-black"
                                         }, void 0, false, {
                                             fileName: "[project]/src/ components/Home/Contact.tsx",
-                                            lineNumber: 62,
+                                            lineNumber: 63,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/ components/Home/Contact.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 62,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex justify-end",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            type: "submit",
-                                            className: "bg-neonGreen text-white px-8 py-3 font-medium hover:bg-neonGreen/90 transition-colors",
-                                            children: "Contact Us"
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$Button$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ButtonGreen"], {
+                                            text: "Contact us"
                                         }, void 0, false, {
                                             fileName: "[project]/src/ components/Home/Contact.tsx",
-                                            lineNumber: 73,
+                                            lineNumber: 74,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/ components/Home/Contact.tsx",
-                                        lineNumber: 72,
+                                        lineNumber: 73,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/ components/Home/Contact.tsx",
-                                lineNumber: 52,
+                                lineNumber: 53,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/ components/Home/Contact.tsx",
-                        lineNumber: 48,
+                        lineNumber: 49,
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/ components/Home/Contact.tsx",
-                lineNumber: 32,
+                lineNumber: 33,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/ components/Home/Contact.tsx",
-            lineNumber: 29,
+            lineNumber: 30,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/ components/Home/Contact.tsx",
-        lineNumber: 28,
+        lineNumber: 29,
         columnNumber: 9
     }, this);
 }

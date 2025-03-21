@@ -2,11 +2,10 @@ import { ButtonGreen } from '@/ components/Button/button';
 import { DividerLeft } from '@/ components/Divider/divider';
 import Hero from '@/ components/HeroSection/hero';
 import Sections from '@/ components/Services/section';
-import { hero_data_services } from '@/constants/constants';
+import { hero_data_services,sections  } from '@/constants/constants';
 import { CheckCircle } from 'lucide-react';
 import Image from 'next/image';
 import React from 'react';
-import { sections } from '@/constants/constants';
 import Contact from '@/ components/aboutus/contact';
 
 const Services = () => {

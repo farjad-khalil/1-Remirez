@@ -5,6 +5,7 @@ import { useState } from "react"
 import Image from "next/image"
 import { contact_data } from "@/constants/constants"
 import Input from "./Input"
+import { ButtonGreen } from "../Button/button"
 
 export default function ContactForm() {
     const [formData, setFormData] = useState({
@@ -70,12 +71,7 @@ export default function ContactForm() {
                             </div>
 
                             <div className="flex justify-end">
-                                <button
-                                    type="submit"
-                                    className="bg-neonGreen text-white px-8 py-3 font-medium hover:bg-neonGreen/90 transition-colors"
-                                >
-                                    Contact Us
-                                </button>
+                                <ButtonGreen text="Contact us"/>
                             </div>
                         </form>
                     </div>

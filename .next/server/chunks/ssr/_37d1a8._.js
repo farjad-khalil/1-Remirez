@@ -16,7 +16,7 @@ function DividerCenter({ t1, t2 }) {
         className: "flex items-center w-full bg-white md:pt-12 md:px-8 pt-4 px-4",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex-1 h-[1px] md:h-[3px] bg-[#65991d]"
+                className: "flex-1 h-[1px] md:h-[2.5px] bg-[#65991d]"
             }, void 0, false, {
                 fileName: "[project]/src/ components/Divider/divider.tsx",
                 lineNumber: 6,
@@ -64,7 +64,7 @@ function DividerCenter({ t1, t2 }) {
 }
 function DividerLeft({ t1, t2 }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "flex items-center w-full bg-white pt-12 pb-16 md:px-8",
+        className: "flex items-center w-full bg-white pt-12 px-5 pb-8 md:pb-16 md:px-8",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                 className: "px-4 md:text-4xl text-lg font-semibold",
@@ -93,7 +93,7 @@ function DividerLeft({ t1, t2 }) {
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex-1 h-[3px] bg-[#65991d]"
+                className: "flex-1 h-[2.5px] bg-[#65991d]"
             }, void 0, false, {
                 fileName: "[project]/src/ components/Divider/divider.tsx",
                 lineNumber: 22,
@@ -114,16 +114,18 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 {
 __turbopack_esm__({
     "ButtonGreen": (()=>ButtonGreen),
-    "ButtonLight": (()=>ButtonLight)
+    "ButtonGreenBright": (()=>ButtonGreenBright),
+    "ButtonLight": (()=>ButtonLight),
+    "ButtonWhite": (()=>ButtonWhite)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [app-rsc] (ecmascript)");
 ;
 ;
-const ButtonGreen = ({ text })=>{
+const ButtonGreen = ({ text, hover = true, border_white = false })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
         href: "#",
-        className: "bg-[#65991d] text-white px-8 py-3 font-medium border-2 border-[#65991d] transition-all duration-300 hover:bg-transparent  hover:text-[#65991d]",
+        className: `bg-neonGreen text-white px-8 py-3 font-medium border-2 border-white transition-all duration-300   ${hover ? border_white ? "hover:bg-transparent  hover:text-white" : "hover:bg-transparent hover:text-neonGreen hover:border-neonGreen" : ""} `,
         children: text
     }, void 0, false, {
         fileName: "[project]/src/ components/Button/button.tsx",
@@ -134,11 +136,33 @@ const ButtonGreen = ({ text })=>{
 const ButtonLight = ({ text })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
         href: "#",
-        className: "bg-white text-[#65991d] px-8 py-3 font-medium border-2 border-[#65991d] transition-all duration-300 hover:bg-[#65991d] hover:text-white hover:border-white",
+        className: "bg-white text-neonGreen px-8 py-3 font-medium border-2 border-neonGreen transition-all duration-300 hover:bg-neonGreen hover:text-white hover:border-white",
         children: text
     }, void 0, false, {
         fileName: "[project]/src/ components/Button/button.tsx",
         lineNumber: 19,
+        columnNumber: 5
+    }, this);
+};
+const ButtonGreenBright = ({ text })=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+        href: "#",
+        className: "bg-BrightGreen w-60 py-4 font-bold text-black shadow-lg shadow-black ",
+        children: text
+    }, void 0, false, {
+        fileName: "[project]/src/ components/Button/button.tsx",
+        lineNumber: 33,
+        columnNumber: 5
+    }, this);
+};
+const ButtonWhite = ({ text })=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+        href: "#",
+        className: "bg-white w-60  py-4 font-bold text-black shadow-lg shadow-black ",
+        children: text
+    }, void 0, false, {
+        fileName: "[project]/src/ components/Button/button.tsx",
+        lineNumber: 44,
         columnNumber: 5
     }, this);
 };
@@ -408,12 +432,12 @@ const ContactInfo = ()=>{
                             className: "w-full h-auto"
                         }, void 0, false, {
                             fileName: "[project]/src/ components/contact/contactinfo.tsx",
-                            lineNumber: 40,
+                            lineNumber: 39,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/ components/contact/contactinfo.tsx",
-                        lineNumber: 39,
+                        lineNumber: 38,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -421,21 +445,21 @@ const ContactInfo = ()=>{
                         children: "Working Hours."
                     }, void 0, false, {
                         fileName: "[project]/src/ components/contact/contactinfo.tsx",
-                        lineNumber: 49,
+                        lineNumber: 48,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         children: "Monday – Friday: 9:00 AM – 6:00 PM"
                     }, void 0, false, {
                         fileName: "[project]/src/ components/contact/contactinfo.tsx",
-                        lineNumber: 50,
+                        lineNumber: 49,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         children: "Saturday: 10:00 AM – 4:00 PM"
                     }, void 0, false, {
                         fileName: "[project]/src/ components/contact/contactinfo.tsx",
-                        lineNumber: 51,
+                        lineNumber: 50,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -446,19 +470,19 @@ const ContactInfo = ()=>{
                                 children: "Closed"
                             }, void 0, false, {
                                 fileName: "[project]/src/ components/contact/contactinfo.tsx",
-                                lineNumber: 52,
+                                lineNumber: 51,
                                 columnNumber: 28
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/ components/contact/contactinfo.tsx",
-                        lineNumber: 52,
+                        lineNumber: 51,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/ components/contact/contactinfo.tsx",
-                lineNumber: 37,
+                lineNumber: 36,
                 columnNumber: 13
             }, this)
         ]
@@ -483,6 +507,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$Divid
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$contact$2f$form$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/ components/contact/form.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$contact$2f$contactinfo$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/ components/contact/contactinfo.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$constants$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/constants/constants.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$HeroSection$2f$hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/ components/HeroSection/hero.tsx [app-rsc] (ecmascript)");
+;
 ;
 ;
 ;
@@ -492,39 +518,39 @@ function Home() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Hero, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$HeroSection$2f$hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 t1: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$constants$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["hero_data_contactus"].t1,
-                t2: hero_data_aboutus.t2,
-                description: hero_data_aboutus.description,
-                src: hero_data_aboutus.src
+                t2: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$constants$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["hero_data_contactus"].t2,
+                description: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$constants$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["hero_data_contactus"].description,
+                src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$constants$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["hero_data_contactus"].src
             }, void 0, false, {
                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                lineNumber: 12,
-                columnNumber: 10
+                lineNumber: 13,
+                columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$Divider$2f$divider$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["DividerLeft"], {
                 t1: "Get",
                 t2: "In Touch"
             }, void 0, false, {
                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                lineNumber: 13,
-                columnNumber: 7
+                lineNumber: 14,
+                columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$contact$2f$form$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                lineNumber: 14,
-                columnNumber: 7
+                lineNumber: 15,
+                columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$contact$2f$contactinfo$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(main)/contact/page.tsx",
-                lineNumber: 15,
-                columnNumber: 7
+                lineNumber: 16,
+                columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/(main)/contact/page.tsx",
-        lineNumber: 11,
-        columnNumber: 5
+        lineNumber: 12,
+        columnNumber: 9
     }, this);
 }
 }}),
