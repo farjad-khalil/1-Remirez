@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Web%20Dev/Projects/Paid/1.Remirez/src/app/page.tsx"],"sourcesContent":["import Image from 'next/image';\r\n\r\nexport default function Home() {\r\n  return (\r\n    <div className=\"grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]\">\r\n      <main className=\"flex flex-col gap-20 row-start-2 items-center sm:items-start\">\r\n        <div></div>\r\n      </main>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAK,WAAU;sBACd,cAAA,8OAAC;;;;;;;;;;;;;;;AAIT"}},
-    {"offset": {"line": 33, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
-    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
