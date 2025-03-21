@@ -5,70 +5,10 @@ module.exports = {
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: require } = __turbopack_context__;
 {
-__turbopack_esm__({
-    "default": (()=>Hero)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$HeroSection$2f$hero$2e$tsx__$28$client__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/src/ components/HeroSection/hero.tsx (client proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$HeroSection$2f$hero$2e$tsx__$28$client__proxy$29$__ = __turbopack_import__("[project]/src/ components/HeroSection/hero.tsx (client proxy)");
 ;
-;
-function Hero({ t1, t2, description, src }) {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "relative w-full h-[600px]",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                src: src,
-                alt: "Hero",
-                layout: "fill",
-                objectFit: "cover",
-                className: "w-full h-full"
-            }, void 0, false, {
-                fileName: "[project]/src/ components/HeroSection/hero.tsx",
-                lineNumber: 7,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-0 flex items-center justify-center text-white font-bold bg-black bg-opacity-10 text-center",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            className: "text-4xl md:text-7xl font-bold mb-6",
-                            children: [
-                                t1,
-                                " ",
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-[#94f312]",
-                                    children: t2
-                                }, void 0, false, {
-                                    fileName: "[project]/src/ components/HeroSection/hero.tsx",
-                                    lineNumber: 19,
-                                    columnNumber: 30
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/ components/HeroSection/hero.tsx",
-                            lineNumber: 18,
-                            columnNumber: 21
-                        }, this),
-                        description
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/ components/HeroSection/hero.tsx",
-                    lineNumber: 17,
-                    columnNumber: 17
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/ components/HeroSection/hero.tsx",
-                lineNumber: 16,
-                columnNumber: 13
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "[project]/src/ components/HeroSection/hero.tsx",
-        lineNumber: 5,
-        columnNumber: 9
-    }, this);
-}
+__turbopack_export_namespace__(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$__components$2f$HeroSection$2f$hero$2e$tsx__$28$client__proxy$29$__);
 }}),
 "[project]/src/constants/constants.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
@@ -76,6 +16,7 @@ function Hero({ t1, t2, description, src }) {
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: require } = __turbopack_context__;
 {
 // Data
+// About US Page
 __turbopack_esm__({
     "footer_contact": (()=>footer_contact),
     "footer_text": (()=>footer_text),
@@ -83,6 +24,7 @@ __turbopack_esm__({
     "hero_data_aboutus": (()=>hero_data_aboutus),
     "hero_data_contactus": (()=>hero_data_contactus),
     "hero_data_gallery": (()=>hero_data_gallery),
+    "hero_data_home": (()=>hero_data_home),
     "hero_data_services": (()=>hero_data_services),
     "our_story_text": (()=>our_story_text),
     "sections": (()=>sections),
@@ -128,13 +70,6 @@ const testimonialsData = [
         designation: "Homeowner"
     }
 ];
-const footer_text = "For over 20 years we’ve been growing only by word of mouth and the testimonies of all our customers! We appreciate all our loyal patrons and offer them service with exceptional attention to detail for 100% customer satisfaction! Thank you Long Island!";
-const footer_contact = {
-    phone: "(516) 270-7024",
-    mail: "mramirezlandscaper@gmail.com",
-    url: "ramirez.net",
-    location: "D block, H Road Nassur"
-};
 const hero_data_aboutus = {
     t1: "About",
     t2: "Us",
@@ -147,7 +82,7 @@ const hero_data_aboutus = {
                 children: "excellence"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 59,
+                lineNumber: 52,
                 columnNumber: 51
             }, this),
             ",",
@@ -157,7 +92,7 @@ const hero_data_aboutus = {
                 children: "attention to detail"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 60,
+                lineNumber: 53,
                 columnNumber: 13
             }, this),
             ", and",
@@ -167,7 +102,7 @@ const hero_data_aboutus = {
                 children: "customer satisfaction"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 61,
+                lineNumber: 54,
                 columnNumber: 13
             }, this),
             ". We treat every",
@@ -177,7 +112,7 @@ const hero_data_aboutus = {
                 children: "lawn and garden"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 62,
+                lineNumber: 55,
                 columnNumber: 13
             }, this),
             " as if it were our own, ensuring the highest level of care and professionalism. Whether you're looking to",
@@ -187,14 +122,14 @@ const hero_data_aboutus = {
                 children: "refresh your outdoor space"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 64,
+                lineNumber: 57,
                 columnNumber: 13
             }, this),
             " or need ongoing maintenance, our team is here to bring your vision to life."
         ]
     }, void 0, true, {
         fileName: "[project]/src/constants/constants.tsx",
-        lineNumber: 58,
+        lineNumber: 51,
         columnNumber: 9
     }, this),
     src: "/assets/aboutus/hero_image.png" // Ensure it's correctly formatted
@@ -211,7 +146,7 @@ const hero_data_services = {
                 children: "landscape design and tree trimming"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 76,
+                lineNumber: 69,
                 columnNumber: 119
             }, this),
             ",",
@@ -222,7 +157,7 @@ const hero_data_services = {
                 children: "year-round."
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 78,
+                lineNumber: 71,
                 columnNumber: 13
             }, this),
             ", and",
@@ -231,7 +166,7 @@ const hero_data_services = {
         ]
     }, void 0, true, {
         fileName: "[project]/src/constants/constants.tsx",
-        lineNumber: 75,
+        lineNumber: 68,
         columnNumber: 9
     }, this),
     src: "/assets/services/hero.png"
@@ -248,7 +183,7 @@ const hero_data_gallery = {
                 children: "gallery "
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 90,
+                lineNumber: 83,
                 columnNumber: 32
             }, this),
             ",",
@@ -259,7 +194,7 @@ const hero_data_gallery = {
                 children: "landscape transformations."
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 91,
+                lineNumber: 84,
                 columnNumber: 13
             }, this),
             ", From vibrant gardens to manicured lawns and flawless",
@@ -269,7 +204,7 @@ const hero_data_gallery = {
                 children: "sod installations,"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 92,
+                lineNumber: 85,
                 columnNumber: 13
             }, this),
             ". our work reflects our dedication and expert craftsmanship. Each project is a testament to our passion for creating beautiful outdoor spaces. Let these images inspire your next",
@@ -279,14 +214,14 @@ const hero_data_gallery = {
                 children: "landscaping project."
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 93,
+                lineNumber: 86,
                 columnNumber: 13
             }, this),
             " Your perfect landscape is waiting to be brought to life!"
         ]
     }, void 0, true, {
         fileName: "[project]/src/constants/constants.tsx",
-        lineNumber: 89,
+        lineNumber: 82,
         columnNumber: 9
     }, this),
     src: "/assets/gallery/hero.png"
@@ -303,7 +238,7 @@ const hero_data_contactus = {
                 children: "expert landscaping services, "
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 103,
+                lineNumber: 96,
                 columnNumber: 50
             }, this),
             ",",
@@ -314,7 +249,7 @@ const hero_data_contactus = {
                 children: "questions about our offerings "
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 104,
+                lineNumber: 97,
                 columnNumber: 13
             }, this),
             ", or want a ",
@@ -324,7 +259,7 @@ const hero_data_contactus = {
                 children: "free quote,"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 105,
+                lineNumber: 98,
                 columnNumber: 13
             }, this),
             "don’t hesitate to reach out. Our friendly team is ready to assist you with all your lawn and garden needs, ensuring your outdoor space stays beautiful and well-maintained.",
@@ -334,16 +269,51 @@ const hero_data_contactus = {
                 children: "Contact us today!"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 106,
+                lineNumber: 99,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/constants/constants.tsx",
-        lineNumber: 102,
+        lineNumber: 95,
         columnNumber: 9
     }, this),
     src: "/assets/contact/hero.png"
+};
+const hero_data_home = {
+    t1: "Serving Garden City & Nassau County for Over ",
+    t2: "20 Years!",
+    description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+        className: "md:text-2xl md:mx-44 text-lg mx-10",
+        children: [
+            "With ",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "text-[#94f312]",
+                children: "years of expertise, "
+            }, void 0, false, {
+                fileName: "[project]/src/constants/constants.tsx",
+                lineNumber: 110,
+                columnNumber: 18
+            }, this),
+            ",",
+            " ",
+            "we provide high-quality",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "text-[#94f312]",
+                children: "landscaping and gardening, "
+            }, void 0, false, {
+                fileName: "[project]/src/constants/constants.tsx",
+                lineNumber: 111,
+                columnNumber: 13
+            }, this),
+            " services tailored to your needs, ensuring a lush, vibrant environment all year round."
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/constants/constants.tsx",
+        lineNumber: 109,
+        columnNumber: 9
+    }, this),
+    src: "/assets/home/hero.png"
 };
 const sections = [
     {
@@ -424,6 +394,13 @@ const galleryImages = [
     "/assets/gallery/8.png",
     "/assets/gallery/9.png"
 ];
+const footer_text = "For over 20 years we’ve been growing only by word of mouth and the testimonies of all our customers! We appreciate all our loyal patrons and offer them service with exceptional attention to detail for 100% customer satisfaction! Thank you Long Island!";
+const footer_contact = {
+    phone: "(516) 270-7024",
+    mail: "mramirezlandscaper@gmail.com",
+    url: "ramirez.net",
+    location: "D block, H Road Nassur"
+};
 }}),
 "[project]/src/ components/Divider/divider.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
@@ -539,7 +516,9 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 {
 __turbopack_esm__({
     "ButtonGreen": (()=>ButtonGreen),
-    "ButtonLight": (()=>ButtonLight)
+    "ButtonGreenBright": (()=>ButtonGreenBright),
+    "ButtonLight": (()=>ButtonLight),
+    "ButtonWhite": (()=>ButtonWhite)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [app-rsc] (ecmascript)");
@@ -548,7 +527,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link
 const ButtonGreen = ({ text })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
         href: "#",
-        className: "bg-[#65991d] text-white px-8 py-3 font-medium border-2 border-[#65991d] transition-all duration-300 hover:bg-transparent  hover:text-[#65991d]",
+        className: "bg-neonGreen text-white px-8 py-3 font-medium border-2 border-neonGreen transition-all duration-300 hover:bg-transparent  hover:text-neonGreen",
         children: text
     }, void 0, false, {
         fileName: "[project]/src/ components/Button/button.tsx",
@@ -559,11 +538,33 @@ const ButtonGreen = ({ text })=>{
 const ButtonLight = ({ text })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
         href: "#",
-        className: "bg-white text-[#65991d] px-8 py-3 font-medium border-2 border-[#65991d] transition-all duration-300 hover:bg-[#65991d] hover:text-white hover:border-white",
+        className: "bg-white text-neonGreen px-8 py-3 font-medium border-2 border-neonGreen transition-all duration-300 hover:bg-neonGreen hover:text-white hover:border-white",
         children: text
     }, void 0, false, {
         fileName: "[project]/src/ components/Button/button.tsx",
         lineNumber: 19,
+        columnNumber: 5
+    }, this);
+};
+const ButtonGreenBright = ({ text })=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+        href: "#",
+        className: "bg-BrightGreen w-60 py-4 font-bold text-black shadow-lg shadow-black ",
+        children: text
+    }, void 0, false, {
+        fileName: "[project]/src/ components/Button/button.tsx",
+        lineNumber: 33,
+        columnNumber: 5
+    }, this);
+};
+const ButtonWhite = ({ text })=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+        href: "#",
+        className: "bg-white w-60  py-4 font-bold text-black shadow-lg shadow-black ",
+        children: text
+    }, void 0, false, {
+        fileName: "[project]/src/ components/Button/button.tsx",
+        lineNumber: 44,
         columnNumber: 5
     }, this);
 };

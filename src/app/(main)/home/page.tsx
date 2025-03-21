@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Services = () => {
+const Homee = () => {
   return <div>Home</div>;
 };
 
-export default Services;
+export default Homee;

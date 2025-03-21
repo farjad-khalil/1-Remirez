@@ -7,7 +7,7 @@ import Link from "next/link"
 import { Phone, Instagram, Facebook, PhoneCall } from "lucide-react"
 import { usePathname } from "next/navigation";
 import Navbar from '@/ components/Navbar/navbar';
-import Footer from '@/ components/aboutus/footer';
+import Footer from '@/ components/Navbar/footer';
 
 
 
@@ -41,11 +41,8 @@ export default function RootLayout({
         </div>
 
         {/* Navigation */}
-        <header className="bg-[#65991d] text-white">
-
-
+        <header className="bg-[#65991d] text-white ">
           <Navbar />
-
         </header>
         {children}
 

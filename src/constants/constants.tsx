@@ -1,5 +1,5 @@
 // Data
-
+// About US Page
 export const our_story_text = {
     heading: "M. Ramirez Landscaping Inc.",
     description: ",Our company has its beginnings ten years ago. We were founded by owner, Mauricio Ramirez and have been growing rapidly each year with more employees, trucks, and more services for our clients. You can find our trucks mostly in the Garden City, Long Island area servicing gorgeous homes and gardens. We only offer the best in service for all our customers."
@@ -40,17 +40,10 @@ export const testimonialsData = [
     },
 ];
 
-export const footer_text = "For over 20 years we’ve been growing only by word of mouth and the testimonies of all our customers! We appreciate all our loyal patrons and offer them service with exceptional attention to detail for 100% customer satisfaction! Thank you Long Island!"
-
-export const footer_contact = {
-    phone: "(516) 270-7024",
-    mail: "mramirezlandscaper@gmail.com",
-    url: "ramirez.net",
-    location: "D block, H Road Nassur"
-}
 
 
-// constants.tsx
+
+// Hero section data
 export const hero_data_aboutus = {
     t1: "About",
     t2: "Us",
@@ -103,14 +96,26 @@ export const hero_data_contactus: any = {
             We’re here to help! Whether you need <span className="text-[#94f312]">expert landscaping services, </span>,{" "}have
             <span className="text-[#94f312]">questions about our offerings </span>, or want a {" "}
             <span className="text-[#94f312]">free quote,</span>don’t hesitate to reach out. Our friendly team is ready to assist you with all your lawn and garden needs, ensuring your outdoor space stays beautiful and well-maintained.{" "}
-            <span className="text-[#94f312]">Contact us today!</span> 
+            <span className="text-[#94f312]">Contact us today!</span>
 
         </p>
     ),
     src: "/assets/contact/hero.png"
 }
+export const hero_data_home: any = {
+    t1: "Serving Garden City & Nassau County for Over ",
+    t2: "20 Years!",
+    description: (
+        <p className="md:text-2xl md:mx-44 text-lg mx-10">
+            With <span className="text-[#94f312]">years of expertise, </span>,{" "}we provide high-quality 
+            <span className="text-[#94f312]">landscaping and gardening, </span> services tailored to your needs, ensuring a lush, vibrant environment all year round. 
+                
+        </p>
+    ),
+    src: "/assets/home/hero.png"
+}
 
-
+// Services section
 export const sections = [
     {
         title: "Landscape Design & Installation",
@@ -181,7 +186,7 @@ export const sections = [
 ]
 
 
-// Gallery
+// Gallery Page
 export const galleryImages = [
     "/assets/gallery/1.png",
     "/assets/gallery/2.png",
@@ -193,3 +198,13 @@ export const galleryImages = [
     "/assets/gallery/8.png",
     "/assets/gallery/9.png",
 ];
+
+// Footer data
+export const footer_text = "For over 20 years we’ve been growing only by word of mouth and the testimonies of all our customers! We appreciate all our loyal patrons and offer them service with exceptional attention to detail for 100% customer satisfaction! Thank you Long Island!"
+
+export const footer_contact = {
+    phone: "(516) 270-7024",
+    mail: "mramirezlandscaper@gmail.com",
+    url: "ramirez.net",
+    location: "D block, H Road Nassur"
+}

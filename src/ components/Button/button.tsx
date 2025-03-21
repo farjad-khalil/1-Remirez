@@ -6,7 +6,7 @@ export const ButtonGreen = ({ text }:any) => {
 
     <Link
       href="#"
-      className="bg-[#65991d] text-white px-8 py-3 font-medium border-2 border-[#65991d] transition-all duration-300 hover:bg-transparent  hover:text-[#65991d]"
+      className="bg-neonGreen text-white px-8 py-3 font-medium border-2 border-neonGreen transition-all duration-300 hover:bg-transparent  hover:text-neonGreen"
     >
       {text}
     </Link>
@@ -15,10 +15,10 @@ export const ButtonGreen = ({ text }:any) => {
 
 export const ButtonLight = ({ text }:any) => {
   return (
-
+    
     <Link
-      href="#"
-      className="bg-white text-[#65991d] px-8 py-3 font-medium border-2 border-[#65991d] transition-all duration-300 hover:bg-[#65991d] hover:text-white hover:border-white"
+    href="#"
+    className="bg-white text-neonGreen px-8 py-3 font-medium border-2 border-neonGreen transition-all duration-300 hover:bg-neonGreen hover:text-white hover:border-white"
     >
       {text}
     </Link>
@@ -26,3 +26,26 @@ export const ButtonLight = ({ text }:any) => {
 };
 
 
+
+export const ButtonGreenBright = ({ text }:any) => {
+  return (
+
+    <Link
+      href="#"
+      className="bg-BrightGreen w-60 py-4 font-bold text-black shadow-lg shadow-black "
+    >
+      {text}
+    </Link>
+  )
+};
+export const ButtonWhite = ({ text }:any) => {
+  return (
+
+    <Link
+      href="#"
+      className="bg-white w-60  py-4 font-bold text-black shadow-lg shadow-black "
+    >
+      {text}
+    </Link>
+  )
+};

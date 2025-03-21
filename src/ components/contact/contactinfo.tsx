@@ -31,7 +31,6 @@ const ContactInfo = () => {
                 </div>
             </div>
 
-            {/* Plant Image - Center */}
 
             {/* Right - Working Hours */}
             <div className="bg-[#65991d] text-white h-96 md:h-64 p-8 w-full md:w-1/2 rounded-sm relative overflow-hidden">
