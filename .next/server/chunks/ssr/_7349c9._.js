@@ -76,40 +76,30 @@ const hero_data_aboutus = {
             "What sets us apart? Our commitment to ",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: "text-[#94f312]",
-                children: "excellence"
+                children: "excellence, attention to detail,"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
                 lineNumber: 8,
                 columnNumber: 51
             }, this),
-            ",",
+            " and",
             " ",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: "text-[#94f312]",
-                children: "attention to detail"
+                children: "customer satisfaction."
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
                 lineNumber: 9,
                 columnNumber: 13
             }, this),
-            ", and",
-            " ",
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                className: "text-[#94f312]",
-                children: "customer satisfaction"
-            }, void 0, false, {
-                fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 10,
-                columnNumber: 13
-            }, this),
-            ". We treat every",
+            " We treat every",
             " ",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: "text-[#94f312]",
                 children: "lawn and garden"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 11,
+                lineNumber: 10,
                 columnNumber: 13
             }, this),
             " as if it were our own, ensuring the highest level of care and professionalism. Whether you're looking to",
@@ -119,7 +109,7 @@ const hero_data_aboutus = {
                 children: "refresh your outdoor space"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 13,
+                lineNumber: 12,
                 columnNumber: 13
             }, this),
             " or need ongoing maintenance, our team is here to bring your vision to life."
@@ -140,30 +130,28 @@ const hero_data_services = {
             "Our services are designed to enhance and maintain the beauty of your outdoor space with expert care. From ",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: "text-[#94f312]",
-                children: "landscape design and tree trimming"
+                children: "landscape design and tree trimming,"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 25,
+                lineNumber: 24,
                 columnNumber: 119
             }, this),
-            ",",
             " ",
             "to sod installation and seasonal cleanup, we ensure your lawn and garden stay vibrant",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: "text-[#94f312]",
-                children: "year-round."
+                children: " year-round."
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 27,
+                lineNumber: 26,
                 columnNumber: 13
             }, this),
-            ", and",
             " ",
             " With attention to detail and a passion for greenery, we bring your outdoor vision to life!"
         ]
     }, void 0, true, {
         fileName: "[project]/src/constants/constants.tsx",
-        lineNumber: 24,
+        lineNumber: 23,
         columnNumber: 9
     }, this),
     src: "/assets/services/hero.png"
@@ -177,48 +165,47 @@ const hero_data_gallery = {
             "Browse through our ",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: "text-[#94f312]",
-                children: "gallery "
+                children: "gallery, "
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 39,
+                lineNumber: 38,
                 columnNumber: 32
             }, this),
-            ",",
             " ",
             "to see stunning examples of our",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: "text-[#94f312]",
-                children: "landscape transformations."
+                children: " landscape transformations."
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 40,
+                lineNumber: 39,
                 columnNumber: 13
             }, this),
-            ", From vibrant gardens to manicured lawns and flawless",
+            " From vibrant gardens to manicured lawns and flawless",
             " ",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: "text-[#94f312]",
                 children: "sod installations,"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 41,
+                lineNumber: 40,
                 columnNumber: 13
             }, this),
-            ". our work reflects our dedication and expert craftsmanship. Each project is a testament to our passion for creating beautiful outdoor spaces. Let these images inspire your next",
+            " our work reflects our dedication and expert craftsmanship. Each project is a testament to our passion for creating beautiful outdoor spaces. Let these images inspire your next",
             " ",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: "text-[#94f312]",
                 children: "landscaping project."
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 42,
+                lineNumber: 41,
                 columnNumber: 13
             }, this),
             " Your perfect landscape is waiting to be brought to life!"
         ]
     }, void 0, true, {
         fileName: "[project]/src/constants/constants.tsx",
-        lineNumber: 38,
+        lineNumber: 37,
         columnNumber: 9
     }, this),
     src: "/assets/gallery/hero.png"
@@ -235,28 +222,27 @@ const hero_data_contactus = {
                 children: "expert landscaping services, "
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 52,
+                lineNumber: 51,
                 columnNumber: 50
             }, this),
-            ",",
             " ",
             "have",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: "text-[#94f312]",
-                children: "questions about our offerings "
+                children: "questions about our offerings,"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 53,
+                lineNumber: 52,
                 columnNumber: 13
             }, this),
-            ", or want a ",
+            " or want a ",
             " ",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: "text-[#94f312]",
-                children: "free quote,"
+                children: "free quote, "
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 54,
+                lineNumber: 53,
                 columnNumber: 13
             }, this),
             "don’t hesitate to reach out. Our friendly team is ready to assist you with all your lawn and garden needs, ensuring your outdoor space stays beautiful and well-maintained.",
@@ -266,13 +252,13 @@ const hero_data_contactus = {
                 children: "Contact us today!"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 55,
+                lineNumber: 54,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/constants/constants.tsx",
-        lineNumber: 51,
+        lineNumber: 50,
         columnNumber: 9
     }, this),
     src: "/assets/contact/hero.png"
@@ -289,7 +275,7 @@ const hero_data_home = {
                 children: "years of expertise, "
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 66,
+                lineNumber: 65,
                 columnNumber: 18
             }, this),
             ",",
@@ -297,17 +283,17 @@ const hero_data_home = {
             "we provide high-quality",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: "text-[#94f312]",
-                children: "landscaping and gardening, "
+                children: " landscaping and gardening, "
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 67,
+                lineNumber: 66,
                 columnNumber: 13
             }, this),
             " services tailored to your needs, ensuring a lush, vibrant environment all year round."
         ]
     }, void 0, true, {
         fileName: "[project]/src/constants/constants.tsx",
-        lineNumber: 65,
+        lineNumber: 64,
         columnNumber: 9
     }, this),
     src: "/assets/home/hero.png"
@@ -324,7 +310,7 @@ const hero_data_error = {
                 children: "Don’t worry, "
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 78,
+                lineNumber: 77,
                 columnNumber: 99
             }, this),
             " ",
@@ -332,7 +318,7 @@ const hero_data_error = {
         ]
     }, void 0, true, {
         fileName: "[project]/src/constants/constants.tsx",
-        lineNumber: 77,
+        lineNumber: 76,
         columnNumber: 9
     }, this),
     src: "/assets/error/hero.png"
@@ -348,18 +334,18 @@ const home_info = {
                 children: "20"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 98,
+                lineNumber: 97,
                 columnNumber: 18
             }, this),
             " years, we’ve grown solely through word of mouth and the heartfelt testimonials of our valued customers. Your trust and support have been the foundation of our success, and we couldn’t be more grateful.",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 98,
+                lineNumber: 97,
                 columnNumber: 276
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 98,
+                lineNumber: 97,
                 columnNumber: 281
             }, this),
             " We take pride in offering exceptional attention to detail, ensuring  ",
@@ -368,14 +354,14 @@ const home_info = {
                 children: "100%"
             }, void 0, false, {
                 fileName: "[project]/src/constants/constants.tsx",
-                lineNumber: 98,
+                lineNumber: 97,
                 columnNumber: 356
             }, this),
             ' customer satisfaction with every experience. Our loyal patrons are at the heart of everything we do, and we are honored to serve the Long Island community. Thank you for your continued support!"'
         ]
     }, void 0, true, {
         fileName: "[project]/src/constants/constants.tsx",
-        lineNumber: 97,
+        lineNumber: 96,
         columnNumber: 18
     }, this)
 };
